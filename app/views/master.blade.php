@@ -46,7 +46,7 @@
 
 <header class="wrap">
     <div class="container">
-	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}"  style="width:194px; heighth:47" alt="SYoDeO" /></a>
+	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo1.png')}}"  style="width:194px; heighth:47" alt="SYoDeO" /></a>
     <nav id="nav-desktop">
     <ul class="menu">
    <li class="current_page_item"><a  href="{{url('/')}}">HOME</a>
