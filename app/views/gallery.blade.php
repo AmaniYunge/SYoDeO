@@ -24,8 +24,8 @@
 <div class="row">
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-4.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-1.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/gal-1.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
@@ -37,8 +37,8 @@
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-7.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-21.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/gal-2.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
@@ -50,8 +50,8 @@
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-5.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-3.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/gal-3.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
@@ -65,7 +65,7 @@
 <div class="row">
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-6.jpg')}}" alt=""/>
+<img class="img-responsive" src="{{asset('images/gallery/gal-4.jpg')}}" alt=""/>
 <a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
@@ -78,8 +78,8 @@
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-8.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-8.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-6.jpg')}}" alt=""/>
+<a class="lightbox " src href="{{asset('images/gallery/gal-6.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
@@ -91,8 +91,8 @@
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-9.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-5.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/gal-5.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>

@@ -21,7 +21,6 @@
 <div class="gal-img">
 <img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" style="width:100%" alt=""/>
 </div><!--end gal-img-->
-<div class="news-info">Aug 12, 2015 | <a href="{{url('/')}}">News</a> | <a href="{{url('/')}}">3 Comments</a></div>
 <div class="content">
 <h2 class="title-blog-post">Spirit of voluntarism</h2>
 
@@ -29,16 +28,18 @@
 
  <!-- You can start editing here. -->
 
-
+<div class="row">
+<div class="col-md-9 home-apoint-text">
 <header class="sidebar-title">
-<h2 style="color:#0bb1e5">Stay with us.</h2>
+<h2>Stay with us.</h2>
 </header>
-<div class="sidebar-appoint">
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
-<div class="home-apoint-btn">
+</div>
+<div class="col-md-3 home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
 </div>
-</div>
+</div><!--end row-->
+
 </li><!--end recent news-->
 
 </ul>

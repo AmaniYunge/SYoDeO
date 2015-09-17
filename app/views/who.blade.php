@@ -21,7 +21,6 @@
 <div class="gal-img">
 <img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" style="width:100%" alt=""/>
 </div><!--end gal-img-->
-<div class="news-info">Aug 12, 2015 | <a href="{{url('/')}}">News</a> | <a href="{{url('/')}}">3 Comments</a></div>
 <div class="content">
 <h2 class="title-blog-post">About SYoDeO</h2>
 
@@ -34,17 +33,39 @@
 <p>The above mentioned challenges  influences young people to engage in risky behavior which increase their vulnerability to HIV/AIDS, rising rate of crimes, psychological damage, drug abuse, petty crime, also the unemployment makes  young people unhappy .</p>
 
  <!-- You can start editing here. -->
+<div class="row">
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/Mission.png')}}" style="width:150px;height:120px" alt=""/></p>
+<h2> Our Mission</h2>
+<p>To promote social, cultural and economic development among young people to improve the living standards of communities.</p>
+</div><!--end home-feature-->
+
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/vision.jpg')}}" style="width:150px;height:120px" alt=""/></p>
+<h2>Our Vision</h2>
+<p>To become a strong organization for promoting, inspiring, motivating and empowering young people participation, in social, cultural and economic development.</p>
+</div><!--end home-feature-->
+
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/goals.jpg')}}" style="width:150px;height:120px" alt=""/></p>
+<h2>Overall Goals</h2>
+<p>The overall goal of SYoDeO is to ensure Tanzania communities are inspired, motivated and supported in realizing young people’s roles in achieving social, cultural and economic development.</p>
+</div><!--end home-feature-->
+</div><!--end row-->
 
 
+<div class="row">
+<div class="col-md-9 home-apoint-text">
 <header class="sidebar-title">
-<h2 style="color:#0bb1e5">Stay with us.</h2>
+<h2>Stay with us.</h2>
 </header>
-<div class="sidebar-appoint">
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
-<div class="home-apoint-btn">
+</div>
+<div class="col-md-3 home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
 </div>
-</div>
+</div><!--end row-->
+
 </li><!--end recent news-->
 
 </ul>

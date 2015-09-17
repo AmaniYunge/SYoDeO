@@ -4,26 +4,33 @@
 
    <div class="flexslider-top">
   <ul class="slides">
-      <li>
-      <a href="index.html#"><img src="{{asset('images/home/slider-1.jpg')}}" alt="" /></a>
+      <li><img src="{{asset('images/home/slider-1.jpg')}}" alt="" />
      <div class="flex-caption">
 	 <span>For the anyone who gets a support try hard not to lose! Since it is a GOLDEN CHANCE!</span>
     </div>
     </li>
  
-     <li>
-      <a href="index.html#"><img src="{{asset('images/home/slider-2.jpg')}}" alt="" /></a>
+     <li><img src="{{asset('images/home/slider-2.jpg')}}" alt="" />
      <div class="flex-caption">
 	 <span>Young and energetic , hardworking and desired to assist others  to  achieve their goal.</span>
      </div>
     </li> 
     
-      <li>
-      <a href="index.html#"><img src="{{asset('images/home/slider-3.jpg')}}" alt="" /></a>
+      <li><img src="{{asset('images/home/slider-3.jpg')}}" alt="" />
      <div class="flex-caption">
 	 <span>Call assistance   from anywhere in Tanzania you will get it’ as you desired!</span>
      </div>
     </li>   
+    <li><img src="{{asset('images/home/slider-4.jpg')}}" alt="" />
+     <div class="flex-caption">
+	 <span>Young and energetic , hardworking and desired to assist others  to  achieve their goal.</span>
+     </div>
+    </li> 
+    <li><img src="{{asset('images/home/slider-5.jpg')}}" alt="" />
+     <div class="flex-caption">
+	 <span>Call assistance   from anywhere in Tanzania you will get it’ as you desired!</span>
+     </div>
+    </li> 
 </ul>
 
 </div><!--end flexslider-->
@@ -33,22 +40,30 @@
 <div class="wrap">
 <div class="container">
 <div class="row">
-
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/testimonial.png')}}" alt=""/></p>
-<h2>Service1</h2>
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
-</div><!--end home-feature-->
-
+<h2>ENTERPENEURSHIP TRAINING</h2>
+</div>
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/testimonial.png')}}" alt=""/></p>
-<h2>Service2</h2>
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
-</div><!--end home-feature-->
-
+<h2>PROJECT FUNDING<br></h2>
+</div>
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/testimonial.png')}}" alt=""/></p>
 <h2>Service3</h2>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4 ">
+<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+</div><!--end home-feature-->
+
+<div class="col-md-4 ">
+<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+</div><!--end home-feature-->
+
+<div class="col-md-4 ">
 <p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
 </div><!--end home-feature-->
 
@@ -157,9 +172,7 @@
 </header>
 <div class="row">
 <div class="col-md-4 block-3col">
-<div class="news-info">Sept 01, 2015, 2015 | <a href="index.html#">2 Comments</a></div>
-<div class="gal-img">
-<a href="index.html#"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/></a>
+<div class="gal-img"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/>
 </div><!--end gal-img-->
 <div class="news-text">
 <h4 class="title-gal-post"><a href="index.html#">Youth Development</a></h4>
@@ -168,9 +181,7 @@
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
-<div class="news-info">Sept 01, 2015 | <a href="index.html#">0 Comments</a></div>
-<div class="gal-img">
-<a href="index.html#"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/></a>
+<div class="gal-img"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/>
 </div><!--end gal-img-->
 <div class="news-text">
 <h4 class="title-gal-post"><a href="index.html#">Youth Development</a></h4>
@@ -179,9 +190,7 @@
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
-<div class="news-info">Sept 02, 2015, 2015 | <a href="index.html#">0 Comments</a></div>
-<div class="gal-img">
-<a href="index.html#"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/></a>
+<div class="gal-img"><img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" alt=""/>
 </div><!--end gal-img-->
 <div class="news-text">
 <h4 class="title-gal-post"><a href="index.html#">Youth Development</a></h4>

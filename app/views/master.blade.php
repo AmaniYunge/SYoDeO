@@ -39,14 +39,13 @@
   <li><a class="twitter" href="index.html#" target="_blank">Twitter</a></li>
   <li><a class="gplus" href="index.html#" target="_blank">Google Plus</a></li>
   <li><a class="linkedin" href="index.html#" target="_blank">Linkedin</a></li>
-  
     </ul>
 </div><!--end container-->
 </div><!--end topbar-->
 
 <header class="wrap">
     <div class="container">
-	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo1.png')}}"  style="width:194px; heighth:47" alt="SYoDeO" /></a>
+	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}"  style="width:200px; height:42px" alt="SYoDeO" /></a>
     <nav id="nav-desktop">
     <ul class="menu">
    <li class="current_page_item"><a  href="{{url('/')}}">HOME</a>
@@ -54,17 +53,9 @@
   <li><a  href="#">ABOUT US</a>
    <ul class="sub-menu">
    <li><a href="{{url('who')}}">Who We Are</a>
-    <ul>
+   </li>
    <li><a href="{{url('team')}}">Our Team</a></li>
-   </ul>
    </li>
-   
-   
-   <li><a href="{{url('mission')}}">Our Mission</a>
-   </li>
-   <li><a href="{{url('vision')}}">Our Vision</a>
-   </li>
-   <li><a href="{{url('goals')}}">Overall goals</a></li>
    </ul>
   </li>
   <li><a  href="{{url('service')}}">SERVICES</a></li>
@@ -83,27 +74,23 @@
 <div class="row">
 <div class="col-md-4 foo-block">
 <h3>Board Members</h3>
-<p>SYoDeO has Professional Board members; expert in different fields aiming to support Tanzanian young people to meet their goal in different dimension socially, economically, financially and culturally!</p>
-<p>Address: Kinondoni, Dar es salaam, Tanzania</p>
-<p>Phone: +255 754 2985 39/  +255 788 4082 80</p>
-<p>Email: info@syodeo.org</p>
+<p>SYoDeO has Professional Board members who are experts in diverse professions   and  are dedicated  to support  young people in Tanzania to meet their goals socially, economically ( financially) and culturally!</p>
+<p><strong>Address:</strong> Kinondoni-Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
+<p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
+<p><strong>Email:</strong>syodeo@gmail.com</p>
 </div><!--end col-md-3-->
 
 <div class="col-md-3 foo-block">
-<h3>Recent News</h3>
+<h3>Training Package</h3>
 <ul class="foo-news">
-<li>
-<div class="foo-date">May 12, 2015</div>
-<h4><a href="index.html#">During the period of the training; second to third week, </a></h4>
-</li>
-<li>
-<div class="foo-date">May 11, 2015</div>
-<h4><a href="index.html#">During the period of the training; second to third week,</a></h4>
-</li>
-<li>
-<div class="foo-date">May 10, 2015</div>
-<h4><a href="index.html#">During the period of the training; second to third week,</a></h4>
-</li>
+<li><p>Self awareness.<br>
+Entrepreurship benefits.<br>
+How to start a new business ( clients, market, position, products, competitors).<br>
+How to manage a  business.<br>
+Business cycles and ethics.<br>
+SWOT  Analysis.<br>
+Business records and its importance.<br>
+Business contracts and business planning.</p></li>
 </ul>
 </div><!--end col-md-3-->
 <div class="col-md-5 foo-block">
@@ -111,9 +98,9 @@
 <ul class="foo-faq">
 <li>
 <h4>We are unique SINCE</h4>
-<p>Mostly disadvantageous young people are the one who targeted with SYoDeO PROJECTS, individual or in a group of three to five young people.</p>
-<p>SYoDeO makes follow up to their clients for the period of 2 years; where by a client can be financed with financial institution or microcredit bank.</p>
-<p>SYoDeO provides one to eight weeks as a grace period depends with the type of the project.</p>
+<p>SYoDeO PROJECTS mostly target disadvantaged young people either as individuals or groups of three to five young people.</p>
+<p>SYoDeO makes a follow up of their clients for a period of 2 years; where by a client can be financed by a financial institution or microcredit bank.</p>
+<p>Depends on the type of project, SYoDeO offers  1-8  weeks grace period.</p>
 </li>
 <li>
 <h4>How do we operate!</h4>
