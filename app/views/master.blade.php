@@ -45,7 +45,7 @@
 
 <header class="wrap">
     <div class="container">
-	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}"  style="width:200px; height:42px" alt="SYoDeO" /></a>
+	<a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}"  style="width:194px; height:42px" alt="SYoDeO" /></a>
     <nav id="nav-desktop">
     <ul class="menu">
    <li class="current_page_item"><a  href="{{url('/')}}">HOME</a>
@@ -61,6 +61,7 @@
   <li><a  href="{{url('service')}}">SERVICES</a></li>
   <li><a  href="{{url('gallery')}}">GALLERY</a>
   <li><a  href="{{url('volunteer')}}">VOLUNTEERS</a></li>
+  <li><a  href="{{url('donation')}}">DONATION</a></li>
   <li><a  href="{{url('contact')}}">CONTACT</a></li>
   </ul>
   </nav>
@@ -124,6 +125,7 @@ Business contracts and business planning.</p></li>
 </div><!--end wrap-->
 
 </div><!--end mainWrap-->
+
 </body>
 
      {{ HTML::script("js/jquery.min.js") }}
@@ -135,5 +137,7 @@ Business contracts and business planning.</p></li>
      {{ HTML::script("js/prettyphoto/js/jquery.prettyPhoto.js") }}
      {{ HTML::script("twitter/jquery.tweet.min.js") }}
      {{ HTML::script("js/init.js") }}
+     {{ HTML::script("js/jquery.slimscroll.js") }}
+     {{ HTML::script("js/jquery.slimscroll.min.js") }}
     
 </html>

@@ -19,12 +19,14 @@
 
 <article class="col-md-12 blog-post-single">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/home/news-1.jpg')}}" style="width:100%" alt=""/>
+<img class="img-responsive" src="{{asset('images/home/news-1.png')}}" style="width:100%; height:440px" alt=""/>
 </div><!--end gal-img-->
 <div class="content">
 <h2 class="title-blog-post">Spirit of voluntarism</h2>
 
 <p>95% of our working is done voluntarily; organization invites different individuals from outside and inside of our country to work with Tanzanian youth, preferable young people. </p>
+<h2 class="title-blog-post">Careers, Volunteer and Internship Sections</h2>
+<p>SYoDeO Tanzania can requests contact information (such as name, email, and address), as well as personal information such as a resume and cover letter, from visitors on our employment, volunteer and internship opportunities. This information is used by us for personnel purposes only. </p>
 
  <!-- You can start editing here. -->
 
