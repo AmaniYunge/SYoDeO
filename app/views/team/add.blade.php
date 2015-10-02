@@ -1,5 +1,5 @@
 {{ Form::open(array("url"=>url('team/add'),"class"=>"form-horizontal", 'id'=>'FileUploader')) }}
-<h2 class="text-center text-muted">Add new User</h2>
+<h2 class="text-center text-muted">Add new Member</h2>
 
 <!--response messages-->
 @if(isset($emsg))
@@ -42,22 +42,22 @@
 
     <div class="form-group">
         <div class="col-md-6">
-            Phone Number<br>
-            {{ Form::text('phone','',array('class'=>'form-control','placeholder'=>'Phone Number','required'=>'required')) }}
+            Password<br>
+            {{ Form::password('password','',array('class'=>'form-control','required'=>'required')) }}
         </div>
         <div class="col-md-6">
-            Password<br>
-            {{ Form::password('password','',array('class'=>'form-control','placeholder'=>'Password','required'=>'required')) }}
+            image<br>
+            {{ Form::text('imagw','',array('class'=>'form-control','placeholder'=>'Image','required'=>'required')) }}
+        </div>
+        <div class="col-md-6">
+            Description<br>
+            {{ Form::textarea('discription','',array('class'=>'form-control','placeholder'=>'Description','required'=>'required')) }}
         </div>
     </div>
   <div class="form-group">
-      <div class="col-md-6">
-          Re-password<br>
-          {{ Form::password('repassword','',array('class'=>'form-control','placeholder'=>'Repassword','required'=>'required')) }}
-      </div>
-      <div class='col-md-6 form-group text-center'>
+      <div class='col-md-12 form-group text-center'>
           <br>
-          {{ Form::submit('Add User',array('class'=>'btn btn-primary','id'=>'submitqn')) }}
+          {{ Form::submit('Add Member',array('class'=>'btn btn-primary','id'=>'submitqn')) }}
           {{ Form::reset('Reset',array('class'=>'btn btn-warning','id'=>'submitqn')) }}
       </div>
   </div>

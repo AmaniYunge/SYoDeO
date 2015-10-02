@@ -73,3 +73,24 @@ Route::get('donation', function()
     return View::make('donation');
 });
 
+Route::get('master1', function()
+{
+    return View::make('master1');
+});
+//return dashboard
+Route::get('dashboard1', function()
+{
+    return View::make('dashboard1');
+});
+
+//return managing view for team
+Route::get('team/manage', array('uses'=>'TeamController@index'));
+//return form for adding team member
+Route::post('team/add', array('uses'=>'TeamController@store'));
+/////////////////// End User //////////////////////////
+
+//return managing view for contacts
+Route::get('contacts/manage', array('uses'=>'ContactsController@index'));
+//return form for adding team contacts
+Route::post('contacts/add', array('uses'=>'ContactsController@store'));
+/////////////////// End User //////////////////////////

@@ -9,7 +9,7 @@ class TeamController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('team.add');
+		return View::make('team.manage');
 
 	}
 
