@@ -87,10 +87,34 @@ Route::get('dashboard1', function()
 Route::get('team/manage', array('uses'=>'TeamController@index'));
 //return form for adding team member
 Route::post('team/add', array('uses'=>'TeamController@store'));
-/////////////////// End User //////////////////////////
+/////////////////// End team //////////////////////////
 
 //return managing view for contacts
 Route::get('contacts/manage', array('uses'=>'ContactsController@index'));
 //return form for adding team contacts
 Route::post('contacts/add', array('uses'=>'ContactsController@store'));
-/////////////////// End User //////////////////////////
+/////////////////// End contacts //////////////////////////
+
+////return managing view for Services
+Route::get('service/manage', array('uses'=>'ServeceController@index'));
+//return form for adding team Services
+Route::post('service/add', array('uses'=>'ServeceController@store'));
+/////////////////// End Services ///////////////////////
+
+/////////return managing view for Gallery
+Route::get('gallery/manage', array('uses'=>'GalleryController@index'));
+//return form for adding team Gallery
+Route::post('gallery/add', array('uses'=>'GalleryController@store'));
+/////////////////// End Gallery //////////////////////////
+
+///////////return managing view for News
+Route::get('news/manage', array('uses'=>'NewsController@index'));
+//return form for adding  News
+Route::post('news/add', array('uses'=>'NewsController@store'));
+/////////////////// End News //////////////////////////
+
+/////////////return managing view for Sliding Pic
+Route::get('colousel/manage', array('uses'=>'ColouselController@index'));
+//return form for adding  Sliding Pic
+Route::post('colousel/add', array('uses'=>'ColouselController@store'));
+/////////////////// End Sliding Pic //////////////////////////

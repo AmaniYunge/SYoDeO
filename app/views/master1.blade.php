@@ -93,7 +93,7 @@
             <div class="col-md-4">
                 <!-- Logo. -->
                 <div class="logo">
-                    <h1><a href="index.html#">SYo<span class="bold">Deo</span></a></h1>
+                    <h1><a href="{{url('service/manage')}}">SYo<span class="bold">Deo</span></a></h1>
                 </div>
                 <!-- Logo ends -->
             </div>
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Copyright info -->
-                    <p class="copy">Copyright &copy; 2014 | <a href="index.html#">SYoDeO</a> </p>
+                    <p  class="copy" >Copyright &copy; 2014 | <a href="{{url('service/manage')}}">SYoDeO</a> </p>
                 </div>
             </div>
         </div>

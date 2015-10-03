@@ -10,6 +10,7 @@ class ColouselController extends \BaseController {
 	public function index()
 	{
 		//
+		return View::make('colousel.manage');
 	}
 
 

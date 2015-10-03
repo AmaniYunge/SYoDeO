@@ -10,6 +10,7 @@ class ServeceController extends \BaseController {
 	public function index()
 	{
 		//
+		return View::make('service.manage');
 	}
 
 
