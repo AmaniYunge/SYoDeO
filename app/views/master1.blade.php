@@ -40,11 +40,11 @@
     <link rel="stylesheet" href="{{URL::asset('jqueryui/css/start/jquery-ui.css')}}">
     <link rel="stylesheet" href="{{URL::asset('DataTables/media/css/jquery.dataTables.css')}}">
     <link rel="stylesheet" href="{{URL::asset('DataTables/media/css/jquery.dataTables_themeroller.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('js/jquery-1.9.1.js')}}">
     <link rel="stylesheet" href="{{URL::asset('style/delta.main.css')}}">
     <link rel="stylesheet" href="{{URL::asset('style/delta.grey.css')}}">
 
    {{HTML::script('js/respond.min.js')}}
+   {{HTML::script('js/jquery-1.9.1.js')}}
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
@@ -141,14 +141,10 @@
     <!-- Footer ends -->
 </div>
 
-
-<!-- Scroll to top -->
-<span class="totop"><a href="index.html#"><i class="fa fa-chevron-up"></i></a></span>
-
 <!-- JS -->
 {{HTML::script('js/jquery.js')}}<!-- jQuery -->
-{{HTML::script('js/bootstrap.min.js')}}<!-- Bootstrap -->
 {{HTML::script('js/jquery-ui.min.js')}}<!-- jQuery UI -->
+{{HTML::script('js/bootstrap.min.js')}}<!-- Bootstrap -->
 {{HTML::script('js/fullcalendar.min.js')}} <!-- Full Google Calendar - Calendar -->
 {{HTML::script('js/jquery.rateit.min.js')}} <!-- RateIt - Star rating -->
 {{HTML::script('js/jquery.prettyPhoto.js')}} <!-- prettyPhoto -->

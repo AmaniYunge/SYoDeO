@@ -87,6 +87,8 @@ Route::get('dashboard1', function()
 Route::get('team/manage', array('uses'=>'TeamController@index'));
 //return form for adding team member
 Route::post('team/add', array('uses'=>'TeamController@store'));
+//delete the Member fom the team list
+Route::post('team/delete/{id}', array('uses'=>'TeamController@destroy'));
 /////////////////// End team //////////////////////////
 
 //return managing view for contacts
