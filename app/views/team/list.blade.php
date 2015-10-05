@@ -64,8 +64,8 @@ $team = Team::all();
 //               })
                 $(".editteam").click(function(){
                     var id1 = $(this).parent().attr('id');
-                    $("#editteam").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
-                    $("#editteam").load("<?php echo url("team/edit") ?>/"+id1);
+                    $("#addteam").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
+                    $("#addteam").load("<?php echo url("team/edit") ?>/"+id1);
                 })
 
 

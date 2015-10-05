@@ -89,6 +89,8 @@ Route::get('team/manage', array('uses'=>'TeamController@index'));
 Route::post('team/add', array('uses'=>'TeamController@store'));
 //delete the Member fom the team list
 Route::post('team/delete/{id}', array('uses'=>'TeamController@destroy'));
+//return form for editing team member
+Route::get('team/edit/{id}', array('uses'=>'TeamController@edit'));
 /////////////////// End team //////////////////////////
 
 //return managing view for contacts

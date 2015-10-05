@@ -88,7 +88,8 @@ class TeamController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$team = Team::find($id);
+		return View::make('team.edit');
 	}
 
 
