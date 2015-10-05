@@ -1,7 +1,24 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: justin
- * Date: 9/24/15
- * Time: 6:23 AM
- */
+
+use Illuminate\Auth\UserTrait;
+use Illuminate\Auth\UserInterface;
+use Illuminate\Auth\Reminders\RemindableTrait;
+use Illuminate\Auth\Reminders\RemindableInterface;
+
+class Gallery extends Eloquent{
+
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = 'gallery';
+
+    /**
+     * The attributes excluded from the model's JSON form.
+     *
+     * @var array
+     */
+    protected $guarded = array();
+
+}

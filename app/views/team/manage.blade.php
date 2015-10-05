@@ -2,7 +2,7 @@
 @section('content')
 <div class="panel panel-default col-md-7">
     <div class="panel-body" id="listuser">
-<h3>List team goes here</h3>
+        @include('team/list')
     </div>
 </div>
 
