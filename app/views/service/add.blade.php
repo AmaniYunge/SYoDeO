@@ -1,4 +1,4 @@
-{{ Form::open(array("url"=>url('service/add'),"class"=>"form-horizontal", 'id'=>'FileUploader')) }}
+{{ Form::open(array("url"=>url('service/add'),"class"=>"form-horizontal", 'id'=>'FileUploader', 'files'=>true)) }}
 <h2 class="text-center text-muted">Add new Service</h2>
 
 <!--response messages-->
@@ -23,10 +23,8 @@
             {{ Form::text('name','',array('class'=>'form-control','placeholder'=>'Name','required'=>'required')) }}
         </div>
         <div class="col-md-6">
-            Image<br>
-            {{ Form::text('image','',array('class'=>'form-control','placeholder'=>'Image','required'=>'required')) }}
+            Image1** {{ Form::file('image',array('required'=>'required','class'=>'')) }}
         </div>
-    </div>
 
     <div class="form-group">
         <div class="col-md-12">

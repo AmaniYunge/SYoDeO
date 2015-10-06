@@ -1,4 +1,4 @@
-{{ Form::open(array("url"=>url('team/add'),"class"=>"form-horizontal", 'id'=>'FileUploader')) }}
+{{ Form::open(array("url"=>url('team/add'),"class"=>"form-horizontal", 'id'=>'FileUploader', 'files' => true)) }}
 <h2 class="text-center text-muted">Add new Member</h2>
 
 <!--response messages-->
@@ -46,12 +46,11 @@
             {{ Form::password('password','',array('class'=>'form-control','required'=>'required')) }}
         </div>
         <div class="col-md-6">
-            image<br>
-            {{ Form::text('imagw','',array('class'=>'form-control','placeholder'=>'Image','required'=>'required')) }}
+            Image1** {{ Form::file('image',array('required'=>'required','class'=>'')) }}
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             Description<br>
-            {{ Form::textarea('discription','',array('class'=>'form-control','placeholder'=>'Description','required'=>'required')) }}
+            {{ Form::textarea('descriptions','',array('class'=>'form-control','placeholder'=>'Descriptions','required'=>'required')) }}
         </div>
     </div>
   <div class="form-group">

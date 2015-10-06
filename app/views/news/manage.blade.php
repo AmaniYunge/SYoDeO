@@ -2,7 +2,7 @@
 @section('content')
 <div class="panel panel-default col-md-7">
     <div class="panel-body" id="listservice">
-<h3>List News goes here</h3>
+        @include('news/list')
     </div>
 </div>
 

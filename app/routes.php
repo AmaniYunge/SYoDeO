@@ -87,6 +87,10 @@ Route::get('dashboard1', function()
 Route::get('team/manage', array('uses'=>'TeamController@index'));
 //return form for adding team member
 Route::post('team/add', array('uses'=>'TeamController@store'));
+//return form for editing team member
+Route::get('team/edit/{id}', array('uses'=>'TeamController@edit'));
+//delete the Member fom the team list
+Route::post('team/delete/{id}', array('uses'=>'TeamController@destroy'));
 /////////////////// End team //////////////////////////
 
 //return managing view for contacts
@@ -97,8 +101,13 @@ Route::post('contacts/add', array('uses'=>'ContactsController@store'));
 
 ////return managing view for Services
 Route::get('service/manage', array('uses'=>'ServeceController@index'));
-//return form for adding team Services
+//return form for adding  Services
 Route::post('service/add', array('uses'=>'ServeceController@store'));
+//return form for editing service
+Route::get('service/edit/{id}', array('uses'=>'ServeceController@edit'));
+//delete the Service fom the list
+Route::post('service/delete/{id}', array('uses'=>'ServeceController@destroy'));
+
 /////////////////// End Services ///////////////////////
 
 /////////return managing view for Gallery

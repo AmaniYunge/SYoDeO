@@ -16,12 +16,12 @@
                 <li><a href="{{url('service/manage')}}">Manage</a></li>
             </ul>
         </li>
-    <li class="has_sub">
-            <a href="#"><i class="fa fa-file-o"></i><b>Contacts</b> <span class="pull-right"><i class="fa fa-chevron-right"></i></span></a>
-            <ul>
-                <li><a href="{{url('contacts/manage')}}">Manage</a></li>
-            </ul>
-        </li>
+    {{--<li class="has_sub">--}}
+            {{--<a href="#"><i class="fa fa-file-o"></i><b>Contacts</b> <span class="pull-right"><i class="fa fa-chevron-right"></i></span></a>--}}
+            {{--<ul>--}}
+                {{--<li><a href="{{url('contacts/manage')}}">Manage</a></li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
         <li class="has_sub">
             <a href="#"><i class="fa fa-file-o"></i> <b>Gallery</b><span class="pull-right"><i class="fa fa-chevron-right"></i></span></a>
             <ul>
