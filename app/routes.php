@@ -114,6 +114,10 @@ Route::post('service/delete/{id}', array('uses'=>'ServeceController@destroy'));
 Route::get('gallery/manage', array('uses'=>'GalleryController@index'));
 //return form for adding team Gallery
 Route::post('gallery/add', array('uses'=>'GalleryController@store'));
+//return form for editing gallery
+Route::get('gallery/edit/{id}', array('uses'=>'GalleryController@edit'));
+//delete the Service fom the gallery
+Route::post('gallery/delete/{id}', array('uses'=>'GalleryController@destroy'));
 /////////////////// End Gallery //////////////////////////
 
 ///////////return managing view for News

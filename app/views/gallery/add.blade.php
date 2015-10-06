@@ -1,4 +1,4 @@
-{{ Form::open(array("url"=>url('gallery/add'),"class"=>"form-horizontal", 'id'=>'FileUploader')) }}
+{{ Form::open(array("url"=>url('gallery/add'),"class"=>"form-horizontal", 'id'=>'FileUploader', 'files'=>true)) }}
 <h2 class="text-center text-muted">Add new Gallery</h2>
 
 <!--response messages-->
@@ -23,8 +23,8 @@
             {{ Form::text('name','',array('class'=>'form-control','placeholder'=>'Name','required'=>'required')) }}
         </div>
         <div class="col-md-6">
-            Image<br>
-            {{ Form::text('image','',array('class'=>'form-control','placeholder'=>'Image','required'=>'required')) }}
+            Image **
+            {{ Form::file('image','',array('class'=>'','required'=>'required')) }}
         </div>
     </div>
 

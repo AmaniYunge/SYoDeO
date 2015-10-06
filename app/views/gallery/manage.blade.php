@@ -2,7 +2,7 @@
 @section('content')
 <div class="panel panel-default col-md-7">
     <div class="panel-body" id="listgallery">
-<h3>List Gallery goes here</h3>
+        @include('gallery/list')
     </div>
 </div>
 
