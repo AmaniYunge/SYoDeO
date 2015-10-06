@@ -131,6 +131,7 @@ Business contracts and business planning.</p></li>
 
      {{ HTML::script("js/jquery.min.js") }}
      {{ HTML::script("js/jquery-ui.min.js") }}
+     {{ HTML::script("css/bootstrap/js/jquery-1.11.3.min.js") }}
      {{ HTML::script("css/bootstrap/js/bootstrap.min.js") }}
      {{ HTML::script("js/menu.js") }}
      {{ HTML::script("js/jquery.flexslider.min.js") }}

@@ -118,7 +118,7 @@ With SYoDeO , you will get skills which translate your knowledge into action!</p
 </div><!--end col-md-8-->
 
 <div class="col-md-4 margin-block">
-<header class="home-title test-title pull-right">
+<header class="home-title test-title pull-right"><br>
 <h2 class="indent-2">Latest News:</h2>
             <ul class="list-news inner-div">
             	<li>

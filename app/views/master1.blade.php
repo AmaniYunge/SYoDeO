@@ -31,7 +31,7 @@
     <!-- Bootstrap toggle -->
     <link rel="stylesheet" href="{{URL::asset('css/jquery.onoff.css')}}">
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/style1.css')}}">
     <!-- Widgets stylesheet -->
     <link rel="stylesheet" href="{{URL::asset('css/widgets.css')}}">
     <link rel="stylesheet" href="{{URL::asset('bootstrap/css/bootstrap.css')}}">
