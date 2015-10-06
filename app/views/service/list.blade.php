@@ -15,30 +15,25 @@ $service = Service::all();
         @foreach($service as $service)
             <td >
                 <div class="col-xs-12">
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         @if($service->image == "")
                             {{ HTML::image("http://placehold.it/100x100","",array('class'=>'img-rounded')) }}
                         @else
-                            {{ HTML::image("uploads/rooms/{$service->image}","",array('class'=>'img-rounded thumbnail','style'=>'height:100px;width:100px')) }}
+                            {{ HTML::image("uploads/service/{$service->image}","",array('class'=>'img-rounded thumbnail','style'=>'height:100px;width:100px')) }}
                         @endif
                     </div>
-                    <div class="col-sm-8" style="font-size: 12px">
-                        <div class="col-xs-6">
-                            Name : <strong>{{$service->name}}</strong><br><br>
-                            Desriptions : <strong>{{ $service->desriptions }}</strong>
+                    <div class="col-sm-7" style="font-size: 12px">
+                        <div class="col-xs-8">
+                            Name : <strong>{{$service->name}}</strong><br>
+                            Details : <strong>{{ $service->descriptions }}</strong>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 links" id="{{ $service->id }}">
-                    <a href="#a" title="edit Service" class="editroom btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-                    <a href="#s" title="delete Service" class="deleteroom btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#a" title="edit Servce" class="editservice btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#s" title="delete Servce" class="deleteservice btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle btn-xs" data-toggle="dropdown">
-                            Services<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li id="{{ $service->id }}"><a href="#s" class='addguest'><i class="fa fa-plus-square-o "></i> Add</a></li>
-                            <li id="{{ $service->id }}"><a href="#" class='listguest'><i class="fa fa-th"></i> List</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -66,12 +61,12 @@ $service = Service::all();
 //               })
                 $(".editservice").click(function(){
                     var id1 = $(this).parent().attr('id');
-                    $("#addservice").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
-                    $("#addservice").load("<?php echo url("service/edit") ?>/"+id1);
+                    $("#addtservice").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
+                    $("#addtservice").load("<?php echo url("service/edit") ?>/"+id1);
                 })
 
 
-                //deleting a room
+                //deleting a team
                 $(".deleteservice").click(function(){
                     var id1 = $(this).parent().attr('id');
                     $(".deleteservice").show("slow").parent().parent().find("span").remove();

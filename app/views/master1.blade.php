@@ -142,7 +142,7 @@
 </div>
 
 <!-- JS -->
-{{HTML::script('js/jquery.js')}}<!-- jQuery -->
+{{HTML::script('js/jquery.min.js')}}<!-- jQuery -->
 {{HTML::script('js/jquery-ui.min.js')}}<!-- jQuery UI -->
 {{HTML::script('js/bootstrap.min.js')}}<!-- Bootstrap -->
 {{HTML::script('js/fullcalendar.min.js')}} <!-- Full Google Calendar - Calendar -->
