@@ -78,7 +78,8 @@
 <p>SYoDeO has Professional Board members who are experts in diverse professions   and  are dedicated  to support  young people in Tanzania to meet their goals socially, economically ( financially) and culturally!</p>
 <p><strong>Address:</strong> Kinondoni-Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
 <p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
-<p><strong>Email:</strong>syodeo@gmail.com</p>
+<p><strong>Fax:</strong>0736600535</p>
+<p><strong>Email:</strong>infosyodeo@gmail.com</p>
 </div><!--end col-md-3-->
 
 <div class="col-md-3 foo-block">

@@ -41,15 +41,15 @@
 <div class="container">
 <div class="row">
 <div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-21.jpg')}}" style="width:200px; height:175px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/home/gal-21.jpg')}}" style="width:220px; height:175px" alt=""/></p>
 <h2>Entrepreneurship Training</h2>
 </div>
 <div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-3.jpg')}}" style="width:200px; height:175px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/home/gal-3.jpg')}}" style="width:220px; height:175px" alt=""/></p>
 <h2>Project Funding<br></h2>
 </div>
 <div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-7.jpg')}}" style="width:200px; height:175px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/home/gal-7.jpg')}}" style="width:220px; height:175px" alt=""/></p>
 <h2>Adolescent Education</h2>
 </div>
 </div>

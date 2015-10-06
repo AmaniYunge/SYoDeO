@@ -66,8 +66,8 @@
 <ul>
 <li><strong>Address:</strong> Kinondoni, Dar es salaam. Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</li>
 <li><strong>Phone:</strong>+255 754298539 / +255 788 408 280</li>
-<li><strong>Fax:</strong> </li>
-<li><strong>Email:</strong> info@syodeo.org</li>
+<li><strong>Fax:0736600535</strong> </li>
+<li><strong>Email:</strong> infosyodeo@gmail.com</li>
 </ul>
 </div>
 
