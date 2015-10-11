@@ -77,11 +77,27 @@ Route::get('master1', function()
 {
     return View::make('master1');
 });
+Route::get('master2', function()
+{
+    return View::make('master2');
+});
 //return dashboard
 Route::get('dashboard1', function()
 {
     return View::make('dashboard1');
 });
+
+Route::get('login', function()
+{
+	return View::make('login');
+});
+
+Route::get('home2', function()
+{
+	return View::make('home2');
+});
+
+
 
 //return managing view for team
 Route::get('team/manage', array('uses'=>'TeamController@index'));
@@ -131,3 +147,46 @@ Route::get('colousel/manage', array('uses'=>'ColouselController@index'));
 //return form for adding  Sliding Pic
 Route::post('colousel/add', array('uses'=>'ColouselController@store'));
 /////////////////// End Sliding Pic //////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * Managing user actions
+ * Directing routes to correct controllers
+ */
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//validating user during login
+Route::get('login',array('as'=>'login', 'uses'=>'UserController@validate'));
+
+//loging a user out
+Route::get('logout',array('as'=>'logout', 'uses'=>'UserController@logout'));
+
+
+
+
+
+
+//display a form to add new user
+Route::get('user',array('as'=>'adduser', 'uses'=>'UserController@index'));
+
+//display adding form
+Route::get('user/add',array('as'=>'adduser1', 'uses'=>'UserController@create'));
+//adding new user
+Route::post('user/add',array('as'=>'adduser1', 'uses'=>'UserController@store'));
+
+//viewing list of users
+Route::get('user/list',array('as'=>'listuser', 'uses'=>'UserController@listUser'));
+
+//display a form to edit users information
+Route::get('user/edit/{id}',array('as'=>'edituser', 'uses'=>'UserController@edit'));
+
+//editng users information
+Route::post('user/edit/{id}',array('as'=>'edituser', 'uses'=>'UserController@update'));
+
+//deleting user
+Route::post('user/delete/{id}',array('as'=>'deleteuser', 'uses'=>'UserController@destroy'));
+
+//display a system usage log for a user
+Route::get('user/log/{id}',array('as'=>'userlog', 'uses'=>'UserController@show'));
+
+

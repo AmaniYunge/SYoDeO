@@ -19,7 +19,7 @@
 
 <article class="col-md-12 blog-post-single">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/home/news-1.png')}}" style="width:100%; height:440px" alt=""/>
+<img class="img-responsive" src="{{asset('images/home/volunteer.jpg')}}" style="width:100%" alt=""/>
 </div><!--end gal-img-->
 <div class="content">
 <h2 class="title-blog-post">Spirit of voluntarism</h2>

@@ -19,7 +19,7 @@
 
 <article class="col-md-12 blog-post-single">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/home/donations.jpg')}}" style="width:100%; height:550px" alt=""/>
+<img class="img-responsive" src="{{asset('images/home/support.jpg')}}" style="width:100%" alt=""/>
 </div><!--end gal-img-->
 <div class="content">
 <h2 class="title-blog-post">Donate to Us</h2>
@@ -39,7 +39,7 @@ with anyone other than service providers who are performing tasks on SYoDeO’s 
 
 <div class="row">
 <div class="col-md-9 home-apoint-text">
-<header class="sidebar-title">
+<header class="sidebar-title"><br>
 <h2>Stay with us.</h2>
 </header>
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>

@@ -50,7 +50,7 @@
     <![endif]-->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
                 <span>Menu</span>
             </button>
             <!-- Site name for smallar screens -->
-            <a href="index.html" class="navbar-brand hidden-lg">SYoDeO</a>
+            <a href="{{url('/')}}" class="navbar-brand hidden-lg"><img src="{{asset('images/logo.png')}}"  style="width:194px; height:42px" alt="SYoDeO" /></a>
         </div>
 
 
@@ -74,15 +74,15 @@
             <!-- Links -->
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown pull-right">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                        <i class="fa fa-user"></i> Admin <b class="caret"></b>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="{{url('/')}}#">
+                        <i class="fa fa-user"></i> Administrator <b class="caret"></b>
                     </a>
 
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu">
-                        <li><a href="index.html#"><i class="fa fa-user"></i> Profile</a></li>
-                        <li><a href="index.html#"><i class="fa fa-cogs"></i> Settings</a></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
+                        <li><a href="{{url('/')}}#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="{{url('/')}}#"><i class="fa fa-cogs"></i> Settings</a></li>
+                        <li><a href="{{url('login')}}"><i class="fa fa-sign-out"></i> Logout</a></li>
                     </ul>
                 </li>
 
@@ -102,7 +102,7 @@
             <div class="col-md-4">
                 <!-- Logo. -->
                 <div class="logo">
-                    <h1><a href="{{url('service/manage')}}">SYo<span class="bold">Deo</span></a></h1>
+                    <h1><a href="{{url('service/manage')}}"><img src="{{asset('images/logo.png')}}"  style="width:174px; height:42px" alt="SYoDeO" /></a></h1>
                 </div>
                 <!-- Logo ends -->
             </div>
