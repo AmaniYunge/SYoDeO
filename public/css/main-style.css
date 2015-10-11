@@ -10,7 +10,7 @@ Author: http://binarytheme.com
 .user-section {
     margin-top:20px;
     font-size:22px;
-    background-color:#D712C2;
+    background-color:#F6F4F2;
 }
 .user-section-inner {
     height: 65px;
@@ -92,7 +92,7 @@ padding: 20px 15px;
 /* tap nvbar Section */
 
 #navbar {
-    background-color:#D712C2;
+    background-color:#F6F4F2;
 }
 
 .navbar-brand {
@@ -115,7 +115,7 @@ margin-right: -24px;
 }
 
 .body-Login-back {
-    background-color:#84B899;
+    background-color:#F6F4F2;
 }
 
 .margin-tips {

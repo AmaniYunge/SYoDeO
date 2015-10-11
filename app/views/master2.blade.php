@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="index.html">
-       <h2 class="  text-default pull-right" style="color: #f5f5f5">Strategic Youth Development Organization</h2>
+       <h2 class="  text-default pull-right" style="color: #D712C2">Strategic Youth Development Organization</h2>
     </a>
 </div>
 <!-- end navbar-header -->
