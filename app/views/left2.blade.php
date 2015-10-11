@@ -31,7 +31,7 @@
                 <!--end search section-->
             </li>
             <li class="">
-                <a href="{{url('/')}}"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                <a href="{{url('home2')}}"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-users fa-fw"></i>Team<span class="fa arrow"></span></a>
