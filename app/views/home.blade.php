@@ -120,7 +120,8 @@ With SYoDeO , you will get skills which translate your knowledge into action!</p
 <div class="col-md-4 margin-block">
 <header class="home-title test-title pull-right"><br>
 <h2 class="indent-2">Latest News:</h2>
-            <ul class="list-news inner-div">
+<div class="inner-div">
+            <ul class="list-news">
             	<li>
                 	<a href="#" class="btn btn">Sept 21, 2015</a>
                     <p class="text-primary">Welcome to SYoDeO</p>
@@ -135,14 +136,14 @@ With SYoDeO , you will get skills which translate your knowledge into action!</p
                 </li>
                 
             </ul>
-
-<script>
-$(function(){
-    $('.inner-div').slimScroll({
-        height: '200px'
-    });
-});
-</script>
+</div>
+ <script>
+   $(function(){
+       $('.inner-div').slimScroll({
+          height: '1500px'
+         });
+          });
+  </script>
 
 </div><!--end col-md-4-->
 

@@ -22,6 +22,7 @@
       <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
     <![endif]-->
 
+     {{ HTML::script("js/jquery.slimscroll.min.js") }}
 	
                
     <!-- Favicon -->
@@ -139,7 +140,5 @@ Business contracts and business planning.</p></li>
      {{ HTML::script("js/prettyphoto/js/jquery.prettyPhoto.js") }}
      {{ HTML::script("twitter/jquery.tweet.min.js") }}
      {{ HTML::script("js/init.js") }}
-     {{ HTML::script("js/jquery.slimscroll.js") }}
-     {{ HTML::script("js/jquery.slimscroll.min.js") }}
     
 </html>
