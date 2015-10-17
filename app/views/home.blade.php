@@ -56,11 +56,20 @@
 
 <div class="row">
 <div class="col-md-4 ">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- Self awareness,
+Entrepreurship benefits,
+How to start a new business ( clients, market, position, products, competitors),
+How to manage a  business,
+Business cycles and ethics,
+SWOT  Analysis,
+Business records and its importance,
+Business contracts and business planning.</p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. SYoDeO provide the following funding package to help youth to start up their business ideas.
+<li><strong>.</strong>In Urban minimum 30,000/= to  10,000,000.mil</li>
+<li><strong>.</strong>In Rural area minimum 50,000/= to  5,000,000.mil</li></p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">

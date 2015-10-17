@@ -39,11 +39,20 @@
 
 <div class="row">
 <div class="col-md-4 ">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- Self awareness,
+Entrepreurship benefits,
+How to start a new business ( clients, market, position, products, competitors),
+How to manage a  business,
+Business cycles and ethics,
+SWOT  Analysis,
+Business records and its importance,
+Business contracts and business planning.</p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution</p>
+<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. SYoDeO provide the following funding package to help youth to start up their business ideas.
+<li><strong>.</strong>In Urban minimum 30,000/= to  10,000,000.mil</li>
+<li><strong>.</strong>In Rural area minimum 50,000/= to  5,000,000.mil</li></p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">
@@ -54,7 +63,7 @@
 
 <div class="row services">
 <div class="col-md-6 service">
-<img class="item-avatar-left" src="{{asset('images/home/sub1.jpg')}}" style="width:80px; height:70px" alt=""/>
+<img class="item-avatar-left" src="{{asset('images/home/sub1.png')}}" style="width:80px; height:50px" alt=""/>
 <h4>Cultural Exchange Program</h4>
 <p>Get a chance to interact with and learn from people who are different!</p>
 <p>Cultural exchange programs expose SYoDeO youth to other people from different cultural, geographic and socio - economic backgrounds and in so doing provide the opportunity for young people to develop a greater understanding of diversity - both in Tanzania and worldwide.</p>
@@ -62,7 +71,7 @@
 </div><!--end col-md-6-->
 
 <div class="col-md-6 service">
-<img class="item-avatar-left" src="{{asset('images/home/gal-5.jpg')}}" style="width:80px; height:70px" alt=""/>
+<img class="item-avatar-left" src="{{asset('images/home/gal-5.jpg')}}" style="width:80px; height:50px" alt=""/>
 <h4>Employment Creation to Young People</h4>
 <p>Your knowledge is your employment,<br>
 With SYoDeO , you will get skills which translate your knowledge into action!<br>
@@ -80,6 +89,23 @@ With SYoDeO , you will get skills which translate your knowledge into action!<br
 <div class="wrap  margin-block">
 <div class="container home-apoint">
 <div class="row">
+<div class="col-md-12 home-apoint-text">
+<h2>How do we operate!!</h2>
+<p>Any one who is interested with our service can send application through postal office using address in a first page or you can deliver it at our office.Application should include;</p>
+<li><strong>.</strong> Briefly letter including your telephone no.</li>
+<li><strong>.</strong> Brief summary of the business project plan of your preference </li>
+<li><strong>.</strong> Official letter from Village Executive Office</li>
+<li><strong>.</strong> Any vocational training Certificate copy (not necessary if you don’t have!!)</li>
+<p>Visitation at your residential done once your application received at the office.
+After home visitation, youth are supposed to attends the training for four weeks once in a week.During the period of the training; second to third week, projects officers pay visitation to each youth in their prospective areas for the project as well as to their guarantors’ home.</p>
+In a third to  fourth week trainees  are supposed to present the actual budget of their projects.
+In a fourth week all trainee are supposed to have an  account with selected commercial bank.
+In a fifth week all trainees signed fund contract as well received their cheque ready to start their business’s project!</p>
+</div>
+</div>
+</div><!--end container-->
+<div class="container home-apoint">
+<div class="row">
 <div class="col-md-9 home-apoint-text">
 <h2>Schedule an appointment. Consultation it's free!</h2>
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
@@ -87,8 +113,8 @@ With SYoDeO , you will get skills which translate your knowledge into action!<br
 <div class="col-md-3 home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
 </div>
+</div
 </div><!--end row-->
-</div><!--end container-->
 </div><!--end wrap-->
 
 @stop

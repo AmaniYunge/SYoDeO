@@ -32,7 +32,7 @@
 
 <div class="row">
 <div class="col-md-9 home-apoint-text">
-<header class="sidebar-title">
+<header class="sidebar-title"><br>
 <h2>Stay with us.</h2>
 </header>
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>

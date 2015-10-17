@@ -31,7 +31,7 @@
 <p>There is a realization in Tanzania that youth; both females and males are at a disadvantage on the job market. Even if they have had some education, many lack skills and job experience. Those who want to set up their own businesses lack capital.</p>
 <p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution.</p>
 <p>The above mentioned challenges  influences young people to engage in risky behavior which increase their vulnerability to HIV/AIDS, rising rate of crimes, psychological damage, drug abuse, petty crime, also the unemployment makes  young people unhappy .</p>
-
+<i style="color:#D712C2">The founders of the Strategic Youth Development Organization believes that through   providing critical training  to youth will help them to turn their ideas into feasible business ventures and where is possible to supply them with credit, this can reduce the rate of poverty in our country. </i>
  <!-- You can start editing here. -->
 <div class="row">
 <div class="col-md-4 home-feature">

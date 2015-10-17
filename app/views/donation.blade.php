@@ -24,15 +24,8 @@
 <div class="content">
 <h2 class="title-blog-post">Donate to Us</h2>
 
-<p>We request contact information from the visitor on our donation forms (for contributions, gifts , planned giving, 
-to make monthly gifts, etc.). These forms may request contact information (such as name, email, telephone number, and address) 
-and payment information (such as credit card number and expiration date). This information is used for SYoDeO Tanzania purposes,
- such as billing, sending receipts, and contacting donors. As noted above, SYoDeO Tanzania may share this information with our service 
- providers, solely for the purpose of performing tasks on SYoDeO’s behalf.
-We also may share names and mailing address with carefully selected organizations we feel our donors would want to know about. 
-If you do not wish to receive information from these groups, please you can write, or telephone us at the number above, or write 
-to us at the address above. We will gladly make these changes. We do not share e-mail addresses or financial and credit card information 
-with anyone other than service providers who are performing tasks on SYoDeO’s behalf. </p>
+<p>Your donation is the most straightforward way to support SYoDeO Tanzania!  Through your support, young people can implement one of the many ideas they have to improve their living standards! </p>
+<p>Please contact us for the SYoDeO Tanzania bank details if you are interested in making a donation to us!</p>
 
 
  <!-- You can start editing here. -->
