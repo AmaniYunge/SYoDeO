@@ -17,7 +17,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution.</p>
+<p>Here are some photos for our client's projects and Entrepreneurship trainings held at SYoDeO Office..</p>
 </div><!--end col-md-12-->
 </div><!--end row-->
 
@@ -32,20 +32,20 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">self employment</h4>
+<h4 class="gallery-text">School-Koheleth Sunguro at Banana</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
 <img class="img-responsive" src="{{asset('images/gallery/gal-21.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-2.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<a class="lightbox" src href="{{asset('images/gallery/gal-21.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Youth Awareness</h4>
+<h4 class="gallery-text">Entrepreneurship Training  at SYoDeO  office</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -58,7 +58,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">self employment</h4>
+<h4 class="gallery-text">Kiosk- Yona Mwaluko at Kibamba</h4>
 </div><!--col-md-4-->
 </div><!--row-->
 
@@ -73,7 +73,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Youth Awareness</h4>
+<h4 class="gallery-text">Bags- Isaya Shicky Gamara at Kibamba</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -86,7 +86,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">self employment</h4>
+<h4 class="gallery-text">Project Coordinator during Entrepreneurship Training</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -99,7 +99,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Youth Awareness</h4>
+<h4 class="gallery-text">Bajaji- Mubarack Athuman at Gongo la Mboto</h4>
 </div><!--col-md-4-->
 </div><!--row-->
 
