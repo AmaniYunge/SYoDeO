@@ -6,29 +6,29 @@
   <ul class="slides">
       <li><img src="{{asset('images/home/slider-1.jpg')}}" alt="" />
      <div class="flex-caption">
-	 <span>For the anyone who gets a support try hard not to lose! Since it is a GOLDEN CHANCE!</span>
+	 <span>For anyone who gets some support work hard in order not to lose! IT IS YOUR GOLDEN CHANCE!</span>
     </div>
     </li>
  
      <li><img src="{{asset('images/home/slider-2.jpg')}}" alt="" />
      <div class="flex-caption">
-	 <span>Young and energetic , hardworking and desired to assist others  to  achieve their goal.</span>
+	 <span>Young and energetic , hardworking and strong desire to assist   others  to  achieve their goals.</span>
      </div>
     </li> 
     
       <li><img src="{{asset('images/home/slider-3.jpg')}}" alt="" />
      <div class="flex-caption">
-	 <span>Call assistance   from anywhere in Tanzania you will get it’ as you desired!</span>
+	 <span> Call for assistance   from anywhere in Tanzania and you will get what you desire!</span>
      </div>
     </li>   
     <li><img src="{{asset('images/home/slider-4.jpg')}}" alt="" />
      <div class="flex-caption">
-	 <span>Young and energetic , hardworking and desired to assist others  to  achieve their goal.</span>
+	 <span>Young and energetic , hardworking and strong desire to assist   others  to  achieve their goals</span>
      </div>
     </li> 
     <li><img src="{{asset('images/home/slider-5.jpg')}}" alt="" />
      <div class="flex-caption">
-	 <span>Call assistance   from anywhere in Tanzania you will get it’ as you desired!</span>
+	 <span>Call for assistance   from anywhere in Tanzania and you will get what you desire!</span>
      </div>
     </li> 
 </ul>

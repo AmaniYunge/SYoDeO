@@ -76,8 +76,10 @@
 <div class="row">
 <div class="col-md-4 foo-block">
 <h3>Board Of Directors</h3>
-<p>SYoDeO has Professional Board members who are experts in diverse professions   and  are dedicated  to support  young people in Tanzania to meet their goals socially, economically ( financially) and culturally!</p>
-<p><strong>Address:</strong> Kinondoni-Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
+<p>SYoDeO has Professional Board members who are experts in diverse professions   and  are
+dedicated  to support  young people in Tanzania to meet their goals socially, economically 
+( financially) and culturally!
+</p><p><strong>Address:</strong> Kinondoni-Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
 <p><strong>Postal Address:</strong> P.O. BOX 33250</p>
 <p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
 <p><strong>Fax:</strong>0736600535</p>
