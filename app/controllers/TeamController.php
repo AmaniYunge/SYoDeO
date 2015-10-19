@@ -65,6 +65,7 @@ class TeamController extends \BaseController {
 
 			));
 		}
+		return View::make('team.manage');
 	}
 
 

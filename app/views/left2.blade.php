@@ -33,7 +33,7 @@
             <li class="">
                 <a href="{{url('home2')}}"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="#"><i class="fa fa-users fa-fw"></i>Team<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
@@ -82,7 +82,7 @@
                 <!-- second-level-items -->
             </li>
             <li>
-                <a href="#"><i class="fa fa-home fa-fw"></i>Contacts<span class="fa arrow"></span></a>
+                <a href="#6"><i class="fa fa-home fa-fw"></i>Contacts<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="{{url('contacts/manage')}}">Manage</a>

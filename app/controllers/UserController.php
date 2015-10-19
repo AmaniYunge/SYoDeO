@@ -44,7 +44,6 @@ class UserController extends \BaseController {
                     "email"=>Input::get("email"),
                     "access"=>Input::get("role"),
                     "password"=>Input::get("password"),
-//                    "gender"=>Input::get("gender"),
                     "status"=>"active"
                 ));
                 $name = $user->first_name." ".$user->middle_name." ".$user->last_name;
@@ -139,20 +138,10 @@ return"Successfully updated";
     {
         $user = User::where("email",Input::get('email'))->first();
         if($user && $user->password == Input::get('password')){
-
-            if(Input::get('keep') == "keep"){
-                Auth::login($user,TRUE);
-            }else{
-                Auth::login($user,FALSE);
+				Auth::login($user);
+                return Redirect::to('home2');
             }
-            if(Auth::check()){
-                Logs::create(array(
-                    "user_id"=>  Auth::user()->id,
-                    "action"  =>"Logging in"
-                ));
-                return Redirect::to("home");
-            }
-        }
+      
         else{
             return View::make("login")->with("error","Incorrect Username or Password");
         }
@@ -164,27 +153,11 @@ return"Successfully updated";
      * @return view
      */
     public function logout(){
-        Auth::logout();
-        Session::flush();
+		//~ json_encode(Auth::user());
+        Auth::logout(Auth::user());
+         Session::flush();
         return Redirect::to("login");
+       
     }
 
 }
-//if($user->role=='admin'){
-//    return View::make('statistics');
-//}
-//elseif($user->role=='manager'){
-//    $station = Station::all();
-//
-//    return View::make('managerView');
-//}
-//
-//elseif ($user->role=='argent') {
-//    $parcel = Parcel::where('station_to',$user->station_id);
-//    return View::make('agentView');
-//}
-//
-//}
-//else{
-//    $errorMsg= 'email or password is incorrect';
-//    return View::make('user.login', compact('errorMsg'));

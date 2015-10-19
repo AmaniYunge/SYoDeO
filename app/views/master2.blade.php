@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+@if(Auth::guest())
+{{  Redirect::to("login")}}
+@else
 <html>
 
 <head>
@@ -11,6 +14,18 @@
     {{ HTML::style("plugins/pace/pace-theme-big-counter.css") }}
     {{ HTML::style("css/style2.css") }}
     {{ HTML::style("css/main-style.css") }}
+    <link rel="stylesheet" href="{{URL::asset('css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/jquery.dataTables.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/jquery.cleditor.css')}}">
+     <link rel="stylesheet" href="{{URL::asset('css/jquery.onoff.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('DataTables/media/css/jquery.dataTables.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('DataTables/media/css/jquery.dataTables_themeroller.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('style/delta.main.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('style/delta.grey.css')}}">
+
+   {{HTML::script('js/respond.min.js')}}
+   {{HTML::script('js/jquery-1.9.1.js')}}
+{{ HTML::script("jqueryui/js/jquery-ui-1.10.3.custom.js") }}
 
 </head>
 
@@ -28,7 +43,7 @@
         <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="index.html">
-       <h2 class="  text-default pull-right" style="color: #D712C2">Strategic Youth Development Organization</h2>
+       <h2 class="  text-default pull-right" style="color: #D712C2">Strategic Youth Development Organization (<strong>SYoDeO</strong>)</h2>
     </a>
 </div>
 <!-- end navbar-header -->
@@ -49,7 +64,7 @@
         <li><a href="#"><i class="fa fa-gear fa-fw"></i>Settings</a>
         </li>
         <li class="divider"></li>
-        <li><a href="{{url('login2')}}"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+        <li><a href="{{url('logout')}}"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
         </li>
     </ul>
     <!-- end dropdown-user -->
@@ -95,7 +110,17 @@
 {{ HTML::script("plugins/morris/raphael-2.1.0.min.js") }}
 {{ HTML::script("scripts/siminta.js") }}
 {{ HTML::script("scripts/dashboard-demo.js") }}
+{{HTML::script("js/jquery.dataTables.min.js")}}<!-- Data tables -->
+{{HTML::script("js/jquery.min.js")}}<!-- jQuery -->
+{{HTML::script("js/jquery-ui.min.js")}}<!-- jQuery UI -->
+{{HTML::script("js/jquery.cleditor.min.js")}}<!-- CLEditor -->
+{{HTML::script("js/bootstrap-datetimepicker.min.js")}}<!-- Date picker -->
+{{HTML::script("js/jquery.onoff.min.js")}}<!-- Bootstrap Toggle -->
+{{ HTML::script("DataTables/media/js/jquery.dataTables.js") }}
+{{ HTML::script("js/jquery.form.js") }}
+
 
 </body>
 
 </html>
+@endif

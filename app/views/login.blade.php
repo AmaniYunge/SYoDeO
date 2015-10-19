@@ -20,8 +20,8 @@
 
     <div class="row">
         <div style="color: #f5f5f5" class="col-md-4 col-md-offset-4 text-center logo-margin ">
-            <h2 >SYoDeO</h2>
-            <small>Strategic Youth Development Organization</small>
+            <h2 style = "color:black">SYoDeO</h2>
+            <small style = "color:black">Strategic Youth Development Organization</small>
         </div>
         <div class="col-md-4 col-md-offset-4">
             <div class="login-panel panel panel-default">

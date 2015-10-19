@@ -156,7 +156,7 @@ Route::post('colousel/add', array('uses'=>'ColouselController@store'));
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //validating user during login
-Route::get('login',array('as'=>'login', 'uses'=>'UserController@validate'));
+Route::post('login',array('as'=>'login', 'uses'=>'UserController@validate'));
 
 //loging a user out
 Route::get('logout',array('as'=>'logout', 'uses'=>'UserController@logout'));
