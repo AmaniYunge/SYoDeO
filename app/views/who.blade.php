@@ -24,14 +24,14 @@
 <div class="content">
 <h2 class="title-blog-post">About SYoDeO</h2>
 
-<p>SYoDeO is a Tanzanian non government organization, non political, non religious and nonprofit aimed to minimized the problems of unemployment to young people in Tanzania.</p>
+<p>SYoDeO is a Tanzanian non government organization, non-political, not religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.</p>
 
-<p>Young people are potential resources for growth and social development if gainfully and productively engaged. In Tanzania, the degree which youth can contribute to the development of their country in particular is constrained by circumscribed life chances, with the lack of job opportunities being one of major circumstances.</p>
+<p>Young people are a potential resource for economic growth and social transformation if they are gainfully and productively engaged in economic activities. The degree to which the youth can contribute to the development of Tanzania is often constrained by limitations often associated with lack of opportunities, particularly in the job market.</p>
 
-<p>There is a realization in Tanzania that youth; both females and males are at a disadvantage on the job market. Even if they have had some education, many lack skills and job experience. Those who want to set up their own businesses lack capital.</p>
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. To those who are entrepreneurs already, lack business management skills, enough capital and sometimes collateral to lend money from financial institution.</p>
-<p>The above mentioned challenges  influences young people to engage in risky behavior which increase their vulnerability to HIV/AIDS, rising rate of crimes, psychological damage, drug abuse, petty crime, also the unemployment makes  young people unhappy .</p>
-<i style="color:#D712C2">The founders of the Strategic Youth Development Organization believes that through   providing critical training  to youth will help them to turn their ideas into feasible business ventures and where is possible to supply them with credit, this can reduce the rate of poverty in our country. </i>
+<p> It is realized that youth in Tanzania, both females and males are disadvantaged in the job market. Even when they have some education they often lack the job skills which will increase their chances for employment and allow them to gain some working experience on the job. Those who want to set up their own businesses lack the capital to do so.</p>
+<p>Most youth lack knowledge on self-employment; they lack entrepreneurship skills, and do not have the means to create their own ventures that will lead to self-employment. Some youth who are entrepreneurs lack business management skills, capital and sometimes collateral to enable them to borrow money from financial institutions.</p>
+<p>These challenges can often lead young people to engage in risky behavior which increases their vulnerability to HIV/AIDS, crime, psychological damage, drug abuse, etc.  Unemployment is a major cause of unhappiness among the youth.</p>
+<i style="color:#D712C2">The founders of the Strategic Youth Development Organization believe   that by  providing critical training  to YOUTH will help them to turn their ideas into feasible business ventures and where possible,  with the availability of  credit to invest in economic activities,  will  reduce the level of poverty in our country.  </i>
  <!-- You can start editing here. -->
 <div class="row">
 <div class="col-md-4 home-feature">
@@ -43,7 +43,7 @@
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/vision.jpg')}}" style="width:150px;height:120px" alt=""/></p>
 <h2>Our Vision</h2>
-<p>To become a strong organization for promoting, inspiring, motivating and empowering young people participation, in social, cultural and economic development.</p>
+<p>To become a strong organization for promoting, inspiring, motivating and empowering young people’s participation in social, cultural and economic development.</p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 home-feature">
@@ -53,11 +53,10 @@
 </div><!--end home-feature-->
 </div><!--end row-->
 
-
 <div class="row">
 <div class="col-md-9 home-apoint-text">
 <header class="sidebar-title">
-<h2>Stay with us.</h2>
+<p><br><h2>Stay with us.</h2></p>
 </header>
 <p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
 </div>

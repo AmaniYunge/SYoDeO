@@ -42,15 +42,15 @@
 <div class="row">
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/gal-21.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2>Entrepreneurship Training</h2>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Entrepreneurship Training</h2>
 </div>
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/gal-3.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2>Project Funding<br></h2>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Project Funding<br></h2>
 </div>
 <div class="col-md-4 home-feature">
 <p class="img-feature"><img src="{{asset('images/home/gal-7.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2>Adolescent Education</h2>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Adolescent Education</h2>
 </div>
 </div>
 
@@ -66,14 +66,15 @@ Business records and its importance,
 Business contracts and business planning.</p>
 </div><!--end home-feature-->
 
+
 <div class="col-md-4 ">
 <p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. SYoDeO provide the following funding package to help youth to start up their business ideas.
-<li><strong>.</strong>In Urban minimum 30,000/= to  10,000,000.mil</li>
-<li><strong>.</strong>In Rural area minimum 50,000/= to  5,000,000.mil</li></p>
+<li><i>a) In Urban minimum 30,000/= to  10,000,000.mil</i></li>
+<li><i>a) In Rural area minimum 50,000/= to  5,000,000.mil</i></li>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">
-<p>SAY NO!  To HIV/AIDS, psychological damage, drug abuse, petty crime, terrorism! With SYoDeO we can make employment</p>
+<p>Through entrepreneurship training, seminars, workshop and debates, SYoDeO helps young people to raise awareness on how to minimize  challenges which  influence them to engage in risky behavior such as vulnerability to HIV/AIDS, rising rates of crime, psychological damage, drug abuse, petty crime and terrorism.</p>
 </div><!--end home-feature-->
 
 </div><!--end row-->
@@ -90,10 +91,10 @@ Business contracts and business planning.</p>
 <div class="row">
 <div class="col-md-6 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-4.jpg')}}" alt=""/>
+<img class="img-responsive" src="{{asset('images/gallery/cultural exchange.jpg')}}" alt=""/>
 <div class="gal-more"><div class="mask-elem">
 <ul>
-<li><a class="lightbox gal-btn" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">BIG</a></li>
+<li><a class="lightbox gal-btn" src href="{{asset('images/gallery/cultural exchange.jpg')}}" data-rel="prettyPhoto[gallery]" title="">BIG</a></li>
 <li><a class="gal-btn" href="{{url('service')}}" >MORE</a></li>
 </ul>
 </div>
@@ -102,13 +103,15 @@ Business contracts and business planning.</p>
 </div><!--end 3col-img-->
 <div class="cases-text">
 <h3>Cultural Exchange Program</h3>
-<p>Get a chance to interact with and learn from people who are different!</p>
+<p>Cultural exchange programs expose SYoDeO youth to other people from different cultural, geographic and socio - economic backgrounds and in so doing provide the opportunity for young people to develop a greater understanding of diversity - both in Tanzania and worldwide.</p>
+<p>Cultural exchange programs assist young people to develop positive relationships with entrepreneurs in a broader range of perspectives.  They enable them to gain knowledge and develop skills that are needed for active participation in our multicultural society.</p>
+
 </div>
 </div><!--col-md-6-->
 
 <div class="col-md-6 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-7.jpg')}}" alt=""/>
+<img class="img-responsive" src="{{asset('images/gallery/gal-7.jpg')}}" style="width:100%;height:210px" alt=""/>
 <div class="gal-more"><div class="mask-elem">
 <ul>
 <li><a class="lightbox gal-btn" src href="{{asset('images/gallery/gal-7.jpg')}}" data-rel="prettyPhoto[gallery]" title="">BIG</a></li>
@@ -119,8 +122,12 @@ Business contracts and business planning.</p>
 </div><!--end 3col-img-->
 <div class="cases-text">
 <h3>Employment Creation to Young People</h3>
-<p>Your knowledge is your employment,<br>
-With SYoDeO , you will get skills which translate your knowledge into action!</p>
+<p>With SYoDeO , you will get skills which translate your knowledge into action!</p><br>
+<strong>We provide three types of skills:</strong>
+<li><i>a) Technical skills</i></li>
+<li><i>b) Business management skills </i></li>
+<li><i>c) Personal entrepreneurial skills</i></li>
+<strong><i>The above skills are important to young people in order to grow their businesses effectively in a global environment.</i></strong>
 </div>
 </div><!--col-md-6-->
 </div><!--row-->
@@ -161,19 +168,4 @@ With SYoDeO , you will get skills which translate your knowledge into action!</p
 </div><!--end wrap-->
 
 
-
-
-<div class="wrap  margin-block">
-<div class="container home-apoint">
-<div class="row">
-<div class="col-md-9 home-apoint-text">
-<h2>From the Board Members</h2>
-<p>The founders of the Strategic Youth Development Organization believes that through   providing critical training  to youth will help them to turn their ideas into feasible business ventures and where is possible to supply them with credit, this can reduce the rate of poverty in our country.</p>
-</div>
-<div class="col-md-3 home-apoint-btn">
-<a href="{{url('contact')}}">Get in touch</a>
-</div>
-</div><!--end row-->
-</div><!--end container-->
-</div><!--end wrap-->
 @stop

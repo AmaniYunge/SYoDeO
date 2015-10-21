@@ -79,29 +79,19 @@
 <p>SYoDeO has Professional Board members who are experts in diverse professions   and  are
 dedicated  to support  young people in Tanzania to meet their goals socially, economically 
 ( financially) and culturally!
-</p><p><strong>Address:</strong> Kinondoni-Bagamoyo Rd; Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
-<p><strong>Postal Address:</strong> P.O. BOX 33250</p>
-<p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
-<p><strong>Fax:</strong>0736600535</p>
-<p><strong>Email:</strong>infosyodeo@gmail.com</p>
+
 </div><!--end col-md-3-->
 
 <div class="col-md-3 foo-block">
-<h3>Members Qualification</h3>
+<h3>Contacts</h3>
 <ul class="foo-news">
-<li><p><strong>.</strong> Standard seven ,form four ,form six , vocational  training education.<br>
-<strong>.</strong> Tanzanian citizen with 18 years and above.<br>
-<strong>.</strong> Must have a guarantor.<br>
-<strong>.</strong> Mentally fit.<br>
-<strong>.</strong> Anxious to become entrepreneur.<br></p>
+<li><p><strong>Physical Address:</strong> Kinondoni Municipality along Bagamoyo Rd,  Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
+<p><strong>Postal Address:</strong> P.O. BOX 33250</p>
+<p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
+<p><strong>Fax:</strong> 0736600535</p>
+<p><strong>Email:</strong> infosyodeo@gmail.com</p>
 </li>
 </ul>
-<h4 style="color:white">Guarantor Qualification</h4>
-<li><p><strong>.</strong> Tanzanian  citizen with above 25 years.<br>
-<strong>.</strong> Physically and mentally fit.<br>
-<strong>.</strong> Tanzanian citizen with permanent employment  EITHER IN GOVERNMENT OR PRIVATE ORGANIZATION.<br>
-<strong>.</strong> Tanzanian citizen – business person with license not less than 5 years.<br></p>
-</li>
 </div><!--end col-md-3-->
 <div class="col-md-5 foo-block">
 <h3>Quick FAQ</h3>
@@ -109,8 +99,8 @@ dedicated  to support  young people in Tanzania to meet their goals socially, ec
 <li>
 <h4>We are unique SINCE</h4>
 <p>SYoDeO PROJECTS mostly target disadvantaged young people either as individuals or groups of three to five young people.</p>
-<p>SYoDeO makes a follow up of their clients for a period of 2 years; where by a client can be financed by a financial institution or microcredit bank.</p>
-<p>Depends on the type of project, SYoDeO offers  1-8  weeks grace period.</p>
+<p>SYoDeO makes a follow up of their clients for a period of 2 years; where by a client can be financed by a financial institution or microcredit bank..</p>
+<p>Depends on the type of project, SYoDeO offers  1-8  weeks grace period. </p>
 </li>
 </ul>
 </div><!--end col-md-3-->

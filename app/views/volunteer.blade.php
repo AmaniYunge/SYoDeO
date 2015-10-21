@@ -24,7 +24,7 @@
 <div class="content">
 <h2 class="title-blog-post">Spirit of voluntarism</h2>
 
-<p>95% of our working is done voluntarily; organization invites different individuals from outside and inside of our country to work with Tanzanian youth, preferable young people. </p>
+<p>95% of our activities are implemented on voluntary basis.   We invite people from within and outside the country to work with Tanzanian youth.  </p>
 <h2 class="title-blog-post">Careers, Volunteer and Internship Sections</h2>
 <p>SYoDeO Tanzania can requests contact information (such as name, email, and address), as well as personal information such as a resume and cover letter, from visitors on our employment, volunteer and internship opportunities. This information is used by us for personnel purposes only. </p>
 
