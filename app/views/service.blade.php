@@ -56,25 +56,33 @@ Business contracts and business planning.</p>
 </div><!--end home-feature-->
 
 </div><!--end row-->
-
-<div class="row services">
-<div class="col-md-6 service">
-<img class="item-avatar-left" src="{{asset('images/home/sub1.png')}}" style="width:80px; height:50px" alt=""/>
+<div class="row">
+<div class="col-md-6 home-feature">
+<p class="img-feature"><img src="{{asset('images/gallery/cultural exchange.jpg')}}" style="width:200px; height:150px" alt=""/></p>
 <h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Cultural Exchange Program</h2>
+</div>
+<div class="col-md-6 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/gal-5.jpg')}}" style="width:200px; height:150px" alt=""/></p>
+<h2 class="title-blog-post"  style="color:#433C3C; font-size 12px">Employment Creation to Young People<br></h2>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 ">
 <p>Cultural exchange programs expose SYoDeO youth to other people from different cultural, geographic and socio - economic backgrounds and in so doing provide the opportunity for young people to develop a greater understanding of diversity - both in Tanzania and worldwide.</p>
 <p>Cultural exchange programs assist young people to develop positive relationships with entrepreneurs in a broader range of perspectives.  They enable them to gain knowledge and develop skills that are needed for active participation in our multicultural society.</p>
-</div><!--end col-md-6-->
 
-<div class="col-md-6 service">
-<img class="item-avatar-left" src="{{asset('images/home/gal-5.jpg')}}" style="width:80px; height:50px" alt=""/>
-<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Employment Creation to Young People</h2>
+</div><!--end home-feature-->
+
+<div class="col-md-6 ">
 <p>With SYoDeO , you will get skills which translate your knowledge into action!</p><br>
 <strong>We provide three types of skills:</strong>
 <li><i>a) Technical skills</i></li>
 <li><i>b) Business management skills </i></li>
 <li><i>c) Personal entrepreneurial skills</i></li>
 <i style="color:#D712C2">The above skills are important to young people in order to grow their businesses effectively in a global environment.</i></p>
-</div><!--end col-md-6-->
+
+</div><!--end home-feature-->
 </div><!--end row-->
 
 </div><!--end container-->
