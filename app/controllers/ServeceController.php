@@ -62,6 +62,7 @@ class ServeceController extends \BaseController {
 			 "image" => $filename,
 
 		));
+		return View::make('service.manage');
 	}
 
 
@@ -86,7 +87,8 @@ class ServeceController extends \BaseController {
 	public function edit($id)
 	{
 		$service = Service::find($id);
-		return View::make('service.edit');
+
+		return View::make('service.edit', compact("service"));
 	}
 
 
@@ -98,7 +100,36 @@ class ServeceController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+		$service = Service::find($id);
+
+		$file = Input::file('image'); // your file upload input field in the form should be named 'file'
+		$destinationPath = public_path().'/uploads';
+		$filename = $file->getClientOriginalName();
+		//$extension =$file->getClientOriginalExtension(); //if you need extension of the file
+		$uploadSuccess = Input::file('image')->move($destinationPath, $filename);
+		$RandNumber   		= rand(0, 9999999999);
+		if( $uploadSuccess ) {
+			require_once('PHPImageWorkshop/ImageWorkshop.php');
+			chmod($destinationPath . "/" . $filename, 0777);
+			$layer = PHPImageWorkshop\ImageWorkshop::initFromPath(public_path() . '/uploads/' . $filename);
+			unlink(public_path() . '/uploads/' . $filename);
+			$layer->resizeInPixel(400, null, true);
+			$layer->applyFilter(IMG_FILTER_CONTRAST, -16, null, null, null, true);
+			$layer->applyFilter(IMG_FILTER_BRIGHTNESS, 9, null, null, null, true);
+			$dirPath = public_path() . '/uploads/' . "service";
+			$filename = "_" . $RandNumber . ".png";
+			$createFolders = true;
+			$backgroundColor = null; // transparent, only for PNG (otherwise it will be white if set null)
+			$imageQuality = 100; // useless for GIF, usefull for PNG and JPEG (0 to 100%)
+			$layer->save($dirPath, $filename, $createFolders, $backgroundColor, $imageQuality);
+			chmod($dirPath . "/" . $filename, 0777);
+		}
+		//connect & insert file record in database
+		$service->image = $filename;
+		$service->name = Input::get('name');
+		$service->descriptions = Input::get('descriptions');
+
+		$service->save();
 	}
 
 

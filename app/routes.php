@@ -105,6 +105,8 @@ Route::get('team/manage', array('uses'=>'TeamController@index'));
 Route::post('team/add', array('uses'=>'TeamController@store'));
 //return form for editing team member
 Route::get('team/edit/{id}', array('uses'=>'TeamController@edit'));
+//Update team member
+Route::post('team/edit/{id}', array('uses'=>'TeamController@update'));
 //delete the Member fom the team list
 Route::post('team/delete/{id}', array('uses'=>'TeamController@destroy'));
 /////////////////// End team //////////////////////////
@@ -121,6 +123,8 @@ Route::get('service/manage', array('uses'=>'ServeceController@index'));
 Route::post('service/add', array('uses'=>'ServeceController@store'));
 //return form for editing service
 Route::get('service/edit/{id}', array('uses'=>'ServeceController@edit'));
+//Update service
+Route::post('service/edit/{id}', array('uses'=>'ServeceController@update'));
 //delete the Service fom the list
 Route::post('service/delete/{id}', array('uses'=>'ServeceController@destroy'));
 
@@ -132,6 +136,8 @@ Route::get('gallery/manage', array('uses'=>'GalleryController@index'));
 Route::post('gallery/add', array('uses'=>'GalleryController@store'));
 //return form for editing gallery
 Route::get('gallery/edit/{id}', array('uses'=>'GalleryController@edit'));
+// Update gallery info
+Route::post('gallery/edit/{id}', array('uses'=>'GalleryController@update'));
 //delete the Service fom the gallery
 Route::post('gallery/delete/{id}', array('uses'=>'GalleryController@destroy'));
 /////////////////// End Gallery //////////////////////////
@@ -140,6 +146,12 @@ Route::post('gallery/delete/{id}', array('uses'=>'GalleryController@destroy'));
 Route::get('news/manage', array('uses'=>'NewsController@index'));
 //return form for adding  News
 Route::post('news/add', array('uses'=>'NewsController@store'));
+//return form for editing News
+Route::get('news/edit/{id}', array('uses'=>'NewsController@edit'));
+//Update News
+Route::post('news/edit/{id}', array('uses'=>'NewsController@update'));
+//delete the News fom the list
+Route::post('news/delete/{id}', array('uses'=>'NewsController@destroy'));
 /////////////////// End News //////////////////////////
 
 /////////////return managing view for Sliding Pic

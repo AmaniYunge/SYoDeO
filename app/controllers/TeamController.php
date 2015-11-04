@@ -90,7 +90,7 @@ class TeamController extends \BaseController {
 	public function edit($id)
 	{
 		$team = Team::find($id);
-		return View::make('team.edit');
+		return View::make('team.edit', compact("team"));
 	}
 
 
@@ -132,10 +132,10 @@ class TeamController extends \BaseController {
 		$team->title = Input::get('title');
 		$team->phone = Input::get('phone');
 		$team->email = Input::get('email');
-		$team->desriptions = Input::get('desriptions');
+		$team->descriptions = Input::get('descriptions');
 
 		$team->save();
-
+		return View::make('team.manage', compact('team'));
 	}
 
 

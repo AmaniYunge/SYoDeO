@@ -32,7 +32,13 @@ class NewsController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$news = News::create(array(
+
+			"contents" => Input::get('contents'),
+			"date" => Input::get('date'),
+		));
+
+		return View::make('news.manage');
 	}
 
 
@@ -56,7 +62,9 @@ class NewsController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$news =  News::find($id);
+
+		return View::make('news.edit', compact("news"));
 	}
 
 
@@ -80,7 +88,8 @@ class NewsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$news = News::find($id);
+		$news->delete();
 	}
 
 

@@ -30,8 +30,8 @@ $gallery = Gallery::all();
                     </div>
                 </div>
                 <div class="col-xs-12 links" id="{{ $gallery->id }}">
-                        <a href="#a" title="edit Member" class="editgallery btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-                        <a href="#s" title="delete Member" class="deletegallery btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#a" title="edit gallery" class="editgallery btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#s" title="delete Gallery" class="deletegallery btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
                     <div class="btn-group">
 
                         </ul>
@@ -49,7 +49,7 @@ $gallery = Gallery::all();
 <script>
     $(document).ready(function (){
 
-        $("#gallertable").dataTable({
+        $("#gallerytable").dataTable({
             "bJQueryUI": true,
             "sPaginationType": "full_numbers",
             "fnDrawCallback": function( oSettings ) {
