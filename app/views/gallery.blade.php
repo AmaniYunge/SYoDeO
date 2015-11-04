@@ -15,11 +15,6 @@
 
 <div class="wrap margin-block">
 <div class="container">
-<div class="row">
-<div class="col-md-12">
-<p>Here are some photos for our client's projects and Entrepreneurship trainings held at SYoDeO Office..</p>
-</div><!--end col-md-12-->
-</div><!--end row-->
 
 <div class="row">
 <div class="col-md-4 block-3col">
@@ -32,7 +27,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">School-Koheleth Sunguro at Banana</h4>
+<h4 class="gallery-text">School program</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -45,7 +40,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Entrepreneurship Training  at SYoDeO  office</h4>
+<h4 class="gallery-text">Entrepreneurship Training  at SYoDeO  </h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -65,8 +60,8 @@
 <div class="row">
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-4.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-4.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/gal-7.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/gal-7.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
@@ -86,7 +81,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Project Coordinator during Entrepreneurship Training</h4>
+<h4 class="gallery-text">Project Coordinator- Training</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
