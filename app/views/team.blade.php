@@ -35,14 +35,14 @@ and Master (MBA) in Human Resources of Open University of Tanzania. she is exper
 
 
 <div class="col-md-4 team-member">
-<p class="img-feature"><img src="{{asset('images/team/edith.png')}}" style="width:230px; height:195px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/team/edith.jpg')}}" style="width:180px; height:200px" alt=""/></p>
 <h2>Edith Richard Mwasha</h2>
 <h4>Organization Secretary</h4>
 <p>Independent Consultant and Accounting Manager at SYoDeO, pursued Bachelor of Laws (LL.B) (Hons) Open University of Tanzania and Masters of Business Administration in Corporate Management-Mzumbe University –Dar es salaam, Tanzania. She is the expert in legal matters with the experience of more than 20 Years in the industry.</p>
 </div><!--end team-member-->
 
 <div class="col-md-4 team-member">
-<p class="img-feature"><img src="{{asset('images/team/coordinator.png')}}" style="width:200px; height:200px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/team/inno.jpg')}}" style="width:200px; height:200px" alt=""/></p>
 <h2>Innocent Augustine</h2>
 <h4>Project Coordinator</h4>
 <p>Project coordinator at SYoDeO, holding bachelor of Business Administration of University of Dar es Salaam Business School. He have been in microfinance industry for 12 years. 9 years working at FINCA and 2 years at Mtaji Credit Facility.<br>He enjoy working with youth with business ideas,guide them with entrepreneured skills and funding them to accomplish their goals.</p>
