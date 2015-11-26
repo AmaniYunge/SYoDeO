@@ -26,8 +26,8 @@ believes young people’s ideas can change the world.</p>
 <p class="img-feature"><img src="{{asset('images/team/rehema.png')}}" style="width:200px; height:195px" alt=""/></p>
 <h2>Rehema Elikana </h2>
 <h4>Chief Executive Officer (C.E.O)</h4>
-<p>Independent Consultant and C.E.O of SYoDeO, holding bachelor of Art (B.A) in Sociology of University of Dar es salaam, Tanzania
-and Master (MBA) in Human Resources of Open University of Tanzania. she is expert in human resource issue:- Recruiting & Selection; Training; Appraising; Entrepreneurship and business management  trainer; Researching  & Report Writing Expert.</p>
+<p>Independent Consultant and C.E.O of SYoDeO, holding bachelor of Art (B.A) in Sociology at University of Dar es salaam, Tanzania
+and Master  in Human Resources at Open University of Tanzania. she is expert in human resource issue:- Recruiting & Selection; Training; Appraising; Entrepreneurship and business management  trainer; Researching  & Report Writing Expert.</p>
 </div><!--end team-member-->
 
 
@@ -38,14 +38,14 @@ and Master (MBA) in Human Resources of Open University of Tanzania. she is exper
 <p class="img-feature"><img src="{{asset('images/team/edith.png')}}" style="width:230px; height:195px" alt=""/></p>
 <h2>Edith Richard Mwasha</h2>
 <h4>Organization Secretary</h4>
-<p>Independent Consultant and Accounting Manager at SYoDeO, pursued Bachelor of Laws (LL.B) (Hons) Open University of Tanzania and Masters of Business Administration in Corporate Management-Mzumbe University –Dar es salaam, Tanzania. She is the expert in legal matters with the experience of more than 20 Years in the industry.</p>
+<p>Organization Secretary at SYoDeO, pursued Bachelor of Laws (LL.B) (Hons) Open University of Tanzania and Masters of Business Administration in Corporate Management-Mzumbe University –Dar es salaam, Tanzania. She is the expert in legal matters with the experience of more than 20 Years in the industry.</p>
 </div><!--end team-member-->
 
 <div class="col-md-4 team-member">
 <p class="img-feature"><img src="{{asset('images/team/coordinator.png')}}" style="width:200px; height:200px" alt=""/></p>
 <h2>Innocent Augustine</h2>
 <h4>Project Coordinator</h4>
-<p>Project coordinator at SYoDeO, holding bachelor of Business Administration of University of Dar es Salaam Business School. He have been in microfinance industry for 12 years. 9 years working at FINCA and 2 years at Mtaji Credit Facility.<br>He enjoy working with youth with business ideas,guide them with entrepreneured skills and funding them to accomplish their goals.</p>
+<p>Project coordinator at SYoDeO, holding bachelor of Business Administration of University of Dar es Salaam Business School. He have been in microfinance industry for 12 years. 9 years working at Finca and 2 years at Mtaji Credit Facility.<br>He enjoy working with youth with business ideas,guide them in entrepreneurs skills and funding them to accomplish their goals.</p>
 </div><!--end team-member-->
 </div><!--end row-->
 
@@ -59,9 +59,10 @@ and Master (MBA) in Human Resources of Open University of Tanzania. she is exper
 <h4 class="trigger"><a href="{{url('/')}}#q2">Terms of use</a></h4>
 <div id="q2" class="toggle_container">
 <p>The use of this web site constitutes agreement with the following terms and conditions:
-<li>(a).SYoDeO maintains this web site (the “Site”) as a courtesy to those who may choose to access the Site (“Users”). The information presented herein is for informative purposes only. The SYoDeO  grants permission to Users to visit the Site and to download and copy the information, documents and materials (collectively, “Materials”) from the Site for the User’s personal, non-commercial use, without any right to resell or redistribute them or to compile or create derivative works therefrom, subject to the terms and conditions outlined below, and also subject to more specific restrictions that may apply to specific Material within this Site.</li>
-<li>(b).SYoDeO  administers this Site. All Material on this Site from the SYoDeO  appears subject to the present Terms and Conditions.</li>
-<li>(c).Unless expressly stated otherwise, the findings, interpretations and conclusions expressed in the Materials on this Site are those of the various OF SYoDeO staff members, advisers AND our clients.</li>
+	<li><strong>I.</strong> SYoDeO maintains this web site (the “Site”) as a courtesy to those who may choose to access the Site (“Users”). The information presented herein is for informative purposes only. The SYoDeO  grants permission to Users to visit the Site and to download and copy the information, documents and materials (collectively, “Materials”) from the Site for the User’s personal, non-commercial use, without any right to resell or redistribute them or to compile or create derivative works therefrom, subject to the terms and conditions outlined below, and also subject to more specific restrictions that may apply to specific Material within this Site.</li>
+<li><strong>II.</strong> SYoDeO  administers this Site. All Material on this Site from the SYoDeO  appears subject to the present Terms and Conditions.</li>
+<li><strong>III.</strong> Unless expressly stated otherwise, the findings, interpretations and conclusions expressed in the Materials on this Site are those of the various OF SYoDeO staff members, advisers AND our clients.</li>
+
 </p>
 </div>
 <h4 class="trigger"><a href="{{url('/')}}#q3">Disclaimers</a></h4>
@@ -72,12 +73,13 @@ and Master (MBA) in Human Resources of Open University of Tanzania. she is exper
 <p>As a condition of use of this Site, the User agrees to indemnify the SYoDeO and its affiliates from and against any and all actions, claims, losses, damages, liabilities and expenses (including reasonable attorneys’ fees) arising out of the User’s use of this Site, including, without limitation, any claims alleging facts that if true would constitute a breach by the User of these Terms and Conditions. If the User is dissatisfied with any Material on this Site or with any of its Terms and Conditions of Use, the User’s sole and exclusive remedy is to discontinue using the Site.
 This Site may contain links and references to third-party web sites. The linked sites are not under the control of the SYoDeO, and the SYoDeO is not responsible for the content of any linked site or any link contained in a linked site. The SYoDeO provides these links only as a convenience, and the inclusion of a link or reference does not imply the endorsement of the linked site by the SYoDeO.</p>
 <p>
-	<li>(a). Defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others;</li>
-	<li>(b). Publish, post, distribute or disseminate any defamatory, infringing, obscene, indecent or unlawful material or information;</li>
-	<li>(c). Upload or attach files that contain software or other material protected by intellectual property laws (or by rights of privacy and publicity) unless the User owns or controls the rights thereto or has received all consents therefor as may be required by law;</li>
-	<li>(d). Upload or attach files that contain viruses, corrupted files or any other similar software or programs that may damage the operation of another’s computer;</li>
-	<li>(e). Delete any author attributions, legal notices or proprietary designations or labels in any file that is uploaded;</li>
-	<li>(f). Falsify the origin or source of software or other material contained in a file that is uploaded;</li>
+	<li><strong>I.</strong>  Defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others;</li>
+	<li><strong>II.</strong>  Publish, post, distribute or disseminate any defamatory, infringing, obscene, indecent or unlawful material or information;</li>
+	<li><strong>III.</strong>  Upload or attach files that contain software or other material protected by intellectual property laws (or by rights of privacy and publicity) unless the User owns or controls the rights thereto or has received all consents therefor as may be required by law;</li>
+	<li><strong>IV.</strong>  Upload or attach files that contain viruses, corrupted files or any other similar software or programs that may damage the operation of another’s computer;</li>
+	<li><strong>V.</strong>  Delete any author attributions, legal notices or proprietary designations or labels in any file that is uploaded;</li>
+	<li><strong>VI.</strong>  Falsify the origin or source of software or other material contained in a file that is uploaded;</li>
+
 	The User acknowledges that all discussion groups are public and not private communications. Further, the User acknowledges that chats, postings, conferences, e-mails and other communications by other Users are not endorsed by the SYoDeO, and that such communications shall not be considered to have been reviewed, screened or approved by the SYoDeO. The SYoDeO reserves the right to remove, for any reason and without notice, any content of the any facility received from Users, including, without limitation, e-mail and bulletin board postings.
 </p>
 </div>

@@ -27,7 +27,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">School program</h4>
+<h4 class="gallery-text">School program-Kohleth Sunguro at Banana</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">
@@ -53,7 +53,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Kiosk- Yona Mwaluko at Kibamba</h4>
+<h4 class="gallery-text">Kiosk- Yohana Mwaluko at Kibamba</h4>
 </div><!--col-md-4-->
 </div><!--row-->
 
@@ -81,7 +81,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Project Coordinator- Training</h4>
+<h4 class="gallery-text">Project Coordinator</h4>
 </div><!--col-md-4-->
 
 <div class="col-md-4 block-3col">

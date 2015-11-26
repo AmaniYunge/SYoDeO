@@ -15,23 +15,20 @@ $news = News::all();
         @foreach($news as $news)
             <td >
                 <div class="col-xs-12">
-
-                    <div class="col-sm-12" style="font-size: 12px">
+                    <div class="col-sm-7" style="font-size: 12px">
                         <div class="col-xs-8">
-                            Contents : <strong>{{$news->contents}}</strong>
-                        </div>
-                        <div class="col-xs-4">
-                            Date : <strong>{{ $news->date }}</strong>
+                            Name : <strong>{{$news->contents}}</strong><br>
+                            Date : <strong>{{ $news->date }}</strong><br>
                         </div>
                     </div>
+                </div>
                 <div class="col-xs-12 links" id="{{ $news->id }}">
-                    <a href="#a" title="edit News" class="editnews btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-                    <a href="#s" title="delete News" class="deletenews btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#a" title="edit news" class="editnews btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#s" title="delete news" class="deletenews btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
                     <div class="btn-group">
 
                         </ul>
                     </div>
-                </div>
                 </div>
 
             </td>

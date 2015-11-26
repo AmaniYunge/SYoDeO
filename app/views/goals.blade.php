@@ -34,7 +34,7 @@
 <h2 style="color:#0bb1e5">Stay with us.</h2>
 </header>
 <div class="sidebar-appoint">
-<p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
+<p>Call for assistance   from anywhere in Tanzania and you will get what you desire!</p>
 <div class="home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
 </div>

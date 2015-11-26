@@ -38,8 +38,6 @@
     <ul class="social-media">
    <li><a class="facebook" href="index.html#" target="_blank">Facebook</a></li>
   <li><a class="twitter" href="index.html#" target="_blank">Twitter</a></li>
-  <li><a class="gplus" href="index.html#" target="_blank">Google Plus</a></li>
-  <li><a class="linkedin" href="index.html#" target="_blank">Linkedin</a></li>
     </ul>
 </div><!--end container-->
 </div><!--end topbar-->
@@ -85,7 +83,7 @@ dedicated  to support  young people in Tanzania to meet their goals socially, ec
 <div class="col-md-3 foo-block">
 <h3>Contacts</h3>
 <ul class="foo-news">
-<li><p><strong>Physical Address:</strong> Kinondoni Municipality along Bagamoyo Rd,  Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
+<li><p><strong>Located at:</strong> Kinondoni Municipality along Bagamoyo Rd,  Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. Finca TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</p>
 <p><strong>Postal Address:</strong> P.O. BOX 33250</p>
 <p><strong>Phone:</strong> +255 754 2985 39/  +255 788 4082 80</p>
 <p><strong>Fax:</strong> 0736600535</p>
@@ -98,9 +96,9 @@ dedicated  to support  young people in Tanzania to meet their goals socially, ec
 <ul class="foo-faq">
 <li>
 <h4>We are unique SINCE</h4>
-<p>SYoDeO PROJECTS mostly target disadvantaged young people either as individuals or groups of three to five young people.</p>
-<p>SYoDeO makes a follow up of their clients for a period of 2 years; where by a client can be financed by a financial institution or microcredit bank..</p>
-<p>Depends on the type of project, SYoDeO offers  1-8  weeks grace period. </p>
+<p><strong>I.</strong> SYoDeO PROJECTS mostly target disadvantaged young people either as individuals or groups of three to five young people.</p>
+<p><strong>II.</strong> SYoDeO makes a follow up of their clients for a period of 2 years; where by a client can be financed by a financial institution or microcredit bank..</p>
+<p><strong>III.</strong> Depends on the type of project, SYoDeO offers  1-8  weeks grace period. </p>
 </li>
 </ul>
 </div><!--end col-md-3-->

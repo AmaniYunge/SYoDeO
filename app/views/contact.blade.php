@@ -19,7 +19,7 @@
 <div class="row">
 
 <div class="col-md-12 g-map">
-<iframe height="400" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=ro&amp;geocode=&amp;q=New+York,+NY,+United+States&amp;aq=3&amp;oq=New+York+&amp;sll=40.765982,-73.974037&amp;sspn=0.104791,0.264187&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Manhattan,+New+York&amp;ll=40.714353,-74.005973&amp;spn=0.013109,0.033023&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	<iframe src="https://www.google.com/maps/d/embed?mid=z9z0lp6To-yM.kJ9wOGV1TymA" width="640" height="480"></iframe>
 
 </div>
 </div><!--end row-->
@@ -60,11 +60,11 @@
 </header>
 
 <div class="margin-t">
-<p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
+<p>Call for assistance  from anywhere in Tanzania and you will get what you desire!</p>
 
 <div class="sidebar-archive">
 <ul>
-<li><strong>Physical Address:</strong> Kinondoni Municipality along Bagamoyo Rd,  Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. FINCA TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</li>
+<li><strong>Located at:</strong> Kinondoni Municipality along Bagamoyo Rd,  Boko – Basihaya;  Block  ‘D’   Plot NO.1305; Opp. Finca TANZANIA OFFICE, Close to ASSEMBLY OF GOD CHURCH.</li>
 <li><strong>Phone:</strong>+255 754298539 / +255 788 408 280</li>
 <li><strong>Fax:</strong> 0736600535</li>
 <li><strong>Email:</strong> infosyodeo@gmail.com</li>

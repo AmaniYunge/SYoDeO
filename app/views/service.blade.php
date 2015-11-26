@@ -28,7 +28,7 @@
 <h2 class="title-blog-post"  style="color:#433C3C; font-size 12px">Project Funding<br></h2>
 </div>
 <div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-7.jpg')}}" style="width:200px; height:175px" alt=""/></p>
+<p class="img-feature"><img src="{{asset('images/home/education.jpg')}}" style="width:200px; height:175px" alt=""/></p>
 <h2 class="title-blog-post"  style="color:#433C3C; font-size 12px">Adolescent Education</h2>
 </div>
 </div>
@@ -94,37 +94,38 @@ Business contracts and business planning.</p>
 <div class="col-md-6 home-apoint-text">
 <h2>How do we operate!!</h2>
 <li class="clearfix">
-1. Any one who is interested with our service can send application through postal office using address in a first page or you can deliver it at our office.
+    <strong>I.</strong>  Any one who is interested in our services can send an application by post (address on first page) or deliver it at our offices.
 </li>
 <li class="clearfix">
-2. Application should include
+    <strong>I.</strong>  Application should include
 <ul>
-<li><i>a). Briefly letter including your telephone number.</i>
+<li><i>a). Briefly letter of introduction and your telephone no</i>
 </li>
-<li><i>b). Brief summary of the business project plan of your preference</i>
-<li><i>c). Official letter from Village Executive Office</i>
+<li><i>b).  Brief summary of your project business plan </i>
+<li><i>c). Official letter from the Village Executive Officer</i>
 </li>
-<li><i>d). Any vocational training Certificate copy (not necessary if you don’t have!!)</i>
+<li><i>d). A copy of Vocational training Certificate (not necessary if you
+        don’t have one)</i>
 </li>
 </ul>
 </li>
 <li class="clearfix">
-3. Visitation at your residential done once your application received at the office.
+    <strong>II.</strong>  Visitation to your residential area will be done once your application has been received at our offices.
 </li>
 <li class="clearfix">
-4. After home visitation, youth are supposed to attends the training for four weeks once in a week.
+    <strong>III.</strong>  After home visitation, you will be invited to attend the training for duration of four week, once in a week.
 </li>
 <li class="clearfix">
-5. During the period of the training; second to third week, projects officers pay visitation to each youth in their prospective areas for the project as well as to their guarantors’ home.
+    <strong>IV.</strong> During the period of the training particularly in the second and third weeks, project officers will visit each youth in their prospective project areas and their guarantors’ home.
 </li>
 <li class="clearfix">
-6. In the third and  fourth weeks trainees  will be required to present the actual budget of their projects
+    <strong>V.</strong>  In the third and  fourth weeks trainees  will be required to present the actual budget of their projects.
 </li>
 <li class="clearfix">
-7. During the fourth week all trainees are required to open an  account with selected commercial banks
+    <strong>VI.</strong>  During the fourth week all trainees are required to open an  account with selected commercial banks.
 </li>
 <li class="clearfix">
-8. In the fifth week all trainees will be required to sign fund contracts and will then receive their cheques ready to start their business’s project!
+    <strong>VII.</strong>  In the fifth week all trainees will be required to sign fund contracts and will then receive their cheques ready to start their business’s project!
 </li>
 
 </div>
@@ -136,38 +137,38 @@ Business contracts and business planning.</p>
 <div class="schedule">
 <ul>
 <li class="clearfix">
-1. Standard seven ,form four ,form six , vocational  training education.
+    <strong>I.</strong>  Standard seven ,form four ,form six , vocational  training education.
 </li>
 <li class="clearfix">
-2. Tanzanian citizen with 18 years and above.
+    <strong>II.</strong>  Tanzanian citizen with 18 years and above.
 </li>
 <li class="clearfix">
-3. Must have a guarantor.
+    <strong>III.</strong>  Must have a guarantor.
 </li>
 <li class="clearfix">
-4. Mentally fit.
+    <strong>IV.</strong>  Mentally fit.
 </li>
 <li class="clearfix">
-5. Anxious to become entrepreneur.
+    <strong>V.</strong> Anxious to become entrepreneur.
 </li>
 <br>
 <br>
 <header class="sidebar-title">
-<h3>Members Qualification</h3>
+<h3>Guarantors Qualification</h3>
 </header>
 <div class="schedule">
 <ul>
 <li class="clearfix">
-1. Tanzanian  citizen with above 25 years.
+    <strong>I.</strong>  Tanzanian  citizen with above 25 years.
 </li>
 <li class="clearfix">
-2. Physically and mentally fit.
+    <strong>II.</strong>  Physically and mentally fit.
 </li>
 <li class="clearfix">
-3. Tanzanian citizen with permanent employment  EITHER IN GOVERNMENT OR PRIVATE ORGANIZATION.
+    <strong>III.</strong> Tanzanian citizen with permanent employment  EITHER IN GOVERNMENT OR PRIVATE ORGANIZATION.
 </li>
 <li class="clearfix">
-4. Tanzanian citizen – business person with license not less than 5 years.
+    <strong>IV.</strong>  Tanzanian citizen – business person with license not less than 5 years.
 </li>
 <br>
 <br>
@@ -179,7 +180,7 @@ Business contracts and business planning.</p>
 <div class="row">
 <div class="col-md-9 home-apoint-text">
 <h2>Schedule an appointment. Consultation it's free!</h2>
-<p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
+<p>Call for assistance   from anywhere in Tanzania and you will get what you desire!</p>
 </div>
 <div class="col-md-3 home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
