@@ -45,15 +45,15 @@
 
 <div class="col-md-4 block-3col">
 <div class="gal-img">
-<img class="img-responsive" src="{{asset('images/gallery/gal-3.jpg')}}" alt=""/>
-<a class="lightbox" src href="{{asset('images/gallery/gal-3.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
+<img class="img-responsive" src="{{asset('images/gallery/aisha.jpg')}}" alt=""/>
+<a class="lightbox" src href="{{asset('images/gallery/aisha.jpg')}}" data-rel="prettyPhoto[gallery]" title="">
 <div class="gal-more"><div class="mask-elem">
 <span class="gal-btn-2">BIG</span>
 </div>
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<h4 class="gallery-text">Kiosk- Yona Mwaluko at Kibamba</h4>
+<h4 class="gallery-text">Duka la nguo- Bi Asha  at Mwananyamala</h4>
 </div><!--col-md-4-->
 </div><!--row-->
 

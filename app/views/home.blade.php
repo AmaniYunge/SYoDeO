@@ -37,49 +37,7 @@
 </div><!--end wrap-->
 
 
-<div class="wrap">
-<div class="container">
-<div class="row">
-<div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-21.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Entrepreneurship Training</h2>
-</div>
-<div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-3.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Project Funding<br></h2>
-</div>
-<div class="col-md-4 home-feature">
-<p class="img-feature"><img src="{{asset('images/home/gal-7.jpg')}}" style="width:220px; height:175px" alt=""/></p>
-<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Adolescent Education</h2>
-</div>
-</div>
 
-<div class="row">
-<div class="col-md-4 ">
-<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- Self awareness,
-Entrepreurship benefits,
-How to start a new business ( clients, market, position, products, competitors),
-How to manage a  business,
-Business cycles and ethics,
-SWOT  Analysis,
-Business records and its importance,
-Business contracts and business planning.</p>
-</div><!--end home-feature-->
-
-
-<div class="col-md-4 ">
-<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing real life. SYoDeO provide the following funding package to help youth to start up their business ideas.
-<li><i>a) In Urban minimum 30,000/= to  10,000,000.mil</i></li>
-<li><i>a) In Rural area minimum 50,000/= to  5,000,000.mil</i></li>
-</div><!--end home-feature-->
-
-<div class="col-md-4 ">
-<p>Through entrepreneurship training, seminars, workshop and debates, SYoDeO helps young people to raise awareness on how to minimize  challenges which  influence them to engage in risky behavior such as vulnerability to HIV/AIDS, rising rates of crime, psychological damage, drug abuse, petty crime and terrorism.</p>
-</div><!--end home-feature-->
-
-</div><!--end row-->
-</div><!--end container-->
-</div><!--end wrap-->
 
 <div class="wrap">
 <div class="container">
@@ -141,7 +99,7 @@ Business contracts and business planning.</p>
             	<li>
                 	<a href="#" class="btn btn">Sept 21, 2015</a>
                     <p class="text-primary">Welcome to SYoDeO</p>
-                    SYoDeO is a Tanzanian non government organization, non political, non religious and nonprofit aimed to minimized the problems of unemployment to young people in Tanzania.
+                    YoDeO is a Tanzanian non government organization, non-political, not religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
  <a href="#" class="underline"></a>
                 </li>
                 <li>
