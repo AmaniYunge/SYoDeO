@@ -5,7 +5,7 @@ $news = News::all();
 
     <thead>
     <tr>
-        <th>News</th>
+        <th>news</th>
 
     </tr>
     </thead>
@@ -15,23 +15,18 @@ $news = News::all();
         @foreach($news as $news)
             <td >
                 <div class="col-xs-12">
-                    <div class="col-sm-8" style="font-size: 12px">
-                        <div class="col-xs-6">
-                            Contents : <strong>{{$news->contents}}</strong><br><br>
-                            date : <strong>{{ $news->date }}</strong>
+                    <div class="col-sm-7" style="font-size: 12px">
+                        <div class="col-xs-8">
+                            Name : <strong>{{$news->contents}}</strong><br>
+                            Date : <strong>{{ $news->date }}</strong><br>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 links" id="{{ $news->id }}">
-                    <a href="#a" title="edit Service" class="editroom btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-                    <a href="#s" title="delete Service" class="deleteroom btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#a" title="edit news" class="editnews btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#s" title="delete news" class="deletenews btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle btn-xs" data-toggle="dropdown">
-                            Services<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li id="{{ $news->id }}"><a href="#s" class='addguest'><i class="fa fa-plus-square-o "></i> Add</a></li>
-                            <li id="{{ $news->id }}"><a href="#" class='listguest'><i class="fa fa-th"></i> List</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -64,7 +59,7 @@ $news = News::all();
                 })
 
 
-                //deleting a room
+                //deleting a news
                 $(".deletenews").click(function(){
                     var id1 = $(this).parent().attr('id');
                     $(".deletenews").show("slow").parent().parent().find("span").remove();

@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'syodeo',
 			'username'  => 'root',
-			'password'  => 'yunge',
+			'password'  => 'cooljust1n23',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

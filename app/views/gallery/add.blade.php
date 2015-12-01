@@ -37,7 +37,7 @@
   <div class="form-group">
       <div class='col-md-12 form-group text-center'>
           <br>
-          {{ Form::submit('Add Contacts',array('class'=>'btn btn-primary','id'=>'submitqn')) }}
+          {{ Form::submit('Add Gallery',array('class'=>'btn btn-primary','id'=>'submitqn')) }}
           {{ Form::reset('Reset',array('class'=>'btn btn-warning','id'=>'submitqn')) }}
       </div>
   </div>

@@ -1,4 +1,4 @@
-{{ Form::open(array("url"=>url("team/edit/{$team->id}"),"class"=>"form-horizontal",'id' => "FileUploader",'files' => true)) }} }}
+{{ Form::open(array("url"=>url("team/edit/{$team->id}"),"class"=>"form-horizontal",'id' => "FileUploader",'files' => true)) }}
 <h2 class="text-center text-muted">Edit Member's Information</h2>
 
 <!--response messages-->
@@ -20,11 +20,11 @@
     <div class='form-group'>
         <div class="col-md-6">
             Full Name<br>
-            {{ Form::text('name','',array('class'=>'form-control','placeholder'=>'Full Name','required'=>'required')) }}
+            {{ Form::text('name',$team->name,array('class'=>'form-control','placeholder'=>'Full Name','required'=>'required')) }}
         </div>
         <div class="col-md-6">
             Title<br>
-            {{ Form::text('title','',array('class'=>'form-control','placeholder'=>'Title','required'=>'required')) }}
+            {{ Form::text('title',$team->title,array('class'=>'form-control','placeholder'=>'Title','required'=>'required')) }}
         </div>
 
     </div>
@@ -32,25 +32,21 @@
     <div class='form-group'>
         <div class="col-md-6">
             Email<br>
-            {{ Form::email('email','',array('class'=>'form-control','placeholder'=>'Email','required'=>'required')) }}
+            {{ Form::email('email',$team->email,array('class'=>'form-control','placeholder'=>'Email','required'=>'required')) }}
         </div>
         <div class="col-md-6">
             Phone Number<br>
-            {{ Form::text('phone','',array('class'=>'form-control','placeholder'=>'Phone','required'=>'required')) }}
+            {{ Form::text('phone',$team->phone,array('class'=>'form-control','placeholder'=>'Phone','required'=>'required')) }}
         </div>
     </div>
 
     <div class="form-group">
-        <div class="col-md-6">
-            Password<br>
-            {{ Form::password('password','',array('class'=>'form-control','required'=>'required')) }}
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             Image1** {{ Form::file('image',array('required'=>'required','class'=>'')) }}
         </div>
         <div class="col-md-12">
             Description<br>
-            {{ Form::textarea('descriptions','',array('class'=>'form-control','placeholder'=>'Descriptions','required'=>'required')) }}
+            {{ Form::textarea('descriptions',$team->descriptions,array('class'=>'form-control','placeholder'=>'Descriptions','required'=>'required')) }}
         </div>
     </div>
     <div class="form-group">
@@ -83,7 +79,7 @@
             $('#FileUploader').resetForm();
             setTimeout(function() {
                 $("#output").html("");
-                $("#addteam").load("<?php echo url("team/add") ?>")
+                $("#editteam").load("<?php echo url("team/add") ?>")
             }, 3000);
             $("#listteam").load("<?php echo url("team/list") ?>")
 

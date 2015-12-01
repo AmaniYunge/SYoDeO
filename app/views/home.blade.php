@@ -37,7 +37,47 @@
 </div><!--end wrap-->
 
 
+<<<<<<< HEAD
 
+=======
+<div class="wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/gal-21.jpg')}}" style="width:220px; height:175px" alt=""/></p>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Entrepreneurship Training</h2>
+</div>
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/gal-3.jpg')}}" style="width:220px; height:175px" alt=""/></p>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Project Funding<br></h2>
+</div>
+<div class="col-md-4 home-feature">
+<p class="img-feature"><img src="{{asset('images/home/education.jpg')}}" style="width:220px; height:175px" alt=""/></p>
+<h2 class="title-blog-post" style="color:#433C3C; font-size 12px">Adolescent Education</h2>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4 ">
+<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- Self awareness,
+Entrepreurship benefits,  <a href="{{url('service')}}">Read More...</a></p>
+
+</div><!--end home-feature-->
+
+
+<div class="col-md-4 ">
+<p>Most of youth have less knowledge of self employment, lack entrepreneurship skills, a fear of job creation and self independence, and fear of facing ...
+    <a href="{{url('service')}}">Read More...</a></p>
+</div><!--end home-feature-->
+
+<div class="col-md-4 ">
+<p>Through entrepreneurship training, seminars, workshop and debates, SYoDeO helps young people to raise awareness on how to minimize  challenges ...  <a href="{{url('service')}}">Read More...</a></p>
+</div><!--end home-feature-->
+
+</div><!--end row-->
+</div><!--end container-->
+</div><!--end wrap-->
+>>>>>>> 39e3244610e1fbfeadfb4ce685ddc554765ebccb
 
 <div class="wrap">
 <div class="container">
@@ -61,9 +101,7 @@
 </div><!--end 3col-img-->
 <div class="cases-text">
 <h3>Cultural Exchange Program</h3>
-<p>Cultural exchange programs expose SYoDeO youth to other people from different cultural, geographic and socio - economic backgrounds and in so doing provide the opportunity for young people to develop a greater understanding of diversity - both in Tanzania and worldwide.</p>
-<p>Cultural exchange programs assist young people to develop positive relationships with entrepreneurs in a broader range of perspectives.  They enable them to gain knowledge and develop skills that are needed for active participation in our multicultural society.</p>
-
+<p>Cultural exchange programs expose SYoDeO youth to other people from different cultural, geographic and socio - economic backgrounds and in so doing provide the opportunity for young people to... <a href="{{url('service')}}">Read More</a></p>
 </div>
 </div><!--col-md-6-->
 
@@ -80,12 +118,7 @@
 </div><!--end 3col-img-->
 <div class="cases-text">
 <h3>Employment Creation to Young People</h3>
-<p>With SYoDeO , you will get skills which translate your knowledge into action!</p><br>
-<strong>We provide three types of skills:</strong>
-<li><i>a) Technical skills</i></li>
-<li><i>b) Business management skills </i></li>
-<li><i>c) Personal entrepreneurial skills</i></li>
-<strong><i>The above skills are important to young people in order to grow their businesses effectively in a global environment.</i></strong>
+<p>With SYoDeO , you will get skills which translate your knowledge into action!  <a href="{{url('service')}}">Read More</a></p>
 </div>
 </div><!--col-md-6-->
 </div><!--row-->
@@ -99,7 +132,11 @@
             	<li>
                 	<a href="#" class="btn btn">Sept 21, 2015</a>
                     <p class="text-primary">Welcome to SYoDeO</p>
+<<<<<<< HEAD
                     YoDeO is a Tanzanian non government organization, non-political, not religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
+=======
+                    SYoDeO is a Tanzanian non government organization, non political, nnot religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
+>>>>>>> 39e3244610e1fbfeadfb4ce685ddc554765ebccb
  <a href="#" class="underline"></a>
                 </li>
                 <li>

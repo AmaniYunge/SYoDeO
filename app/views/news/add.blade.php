@@ -22,10 +22,12 @@
             Contents<br>
             {{ Form::textarea('contents','',array('class'=>'form-control','placeholder'=>'Contents','required'=>'required')) }}
         </div>
-        <div class="col-md-6">
+        <div id="dateselection">
+        <div class="col-md-6" >
             Date<br>
             {{ Form::text('date','',array('class'=>'form-control','placeholder'=>'Date','required'=>'required')) }}
         </div>
+            </div>
     </div>
   <div class="form-group">
       <div class='col-md-12 form-group text-center'>

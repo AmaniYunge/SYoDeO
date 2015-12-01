@@ -5,7 +5,7 @@ $service = Service::all();
 
     <thead>
     <tr>
-        <th>Services</th>
+        <th>service</th>
 
     </tr>
     </thead>
@@ -30,8 +30,8 @@ $service = Service::all();
                     </div>
                 </div>
                 <div class="col-xs-12 links" id="{{ $service->id }}">
-                        <a href="#a" title="edit Servce" class="editservice btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-                        <a href="#s" title="delete Servce" class="deleteservice btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#a" title="edit Service" class="editservice btn btn-xs btn-info"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#s" title="delete Service" class="deleteservice btn btn-xs btn-danger"><i class="fa fa-trash-o text-info"></i> delete</a>&nbsp;&nbsp;&nbsp;
                     <div class="btn-group">
 
                         </ul>
@@ -61,12 +61,12 @@ $service = Service::all();
 //               })
                 $(".editservice").click(function(){
                     var id1 = $(this).parent().attr('id');
-                    $("#addtservice").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
-                    $("#addtservice").load("<?php echo url("service/edit") ?>/"+id1);
+                    $("#addservice").html("<br><i class='fa fa-spinner fa-spin'></i>loading...");
+                    $("#addservice").load("<?php echo url("service/edit") ?>/"+id1);
                 })
 
 
-                //deleting a team
+                //deleting a service
                 $(".deleteservice").click(function(){
                     var id1 = $(this).parent().attr('id');
                     $(".deleteservice").show("slow").parent().parent().find("span").remove();
