@@ -26,8 +26,8 @@ believes young people’s ideas can change the world.</p>
 <p class="img-feature"><img src="{{asset('images/team/rehema.png')}}" style="width:200px; height:195px" alt=""/></p>
 <h2>Rehema Elikana </h2>
 <h4>Chief Executive Officer (C.E.O)</h4>
-<p>Independent Consultant and C.E.O of SYoDeO, holding bachelor of Art (B.A) in Sociology at University of Dar es salaam, Tanzania
-and Master  in Human Resources at Open University of Tanzania. she is expert in human resource issue:- Recruiting & Selection; Training; Appraising; Entrepreneurship and business management  trainer; Researching  & Report Writing Expert.</p>
+<p>Founder and C.E.O of SYoDeO, holding bachelor of Art (B.A) in Sociology at University of Dar es salaam, Tanzania
+and MBA  in Human Resources at Open University of Tanzania. she is expert in human resource issue:- Recruiting & Selection; Training; Appraising; Entrepreneurship and business management  trainer; Researching  & Report Writing Expert.</p>
 </div><!--end team-member-->
 
 
@@ -38,14 +38,14 @@ and Master  in Human Resources at Open University of Tanzania. she is expert in 
 <p class="img-feature"><img src="{{asset('images/team/edith.jpg')}}" style="width:180px; height:200px" alt=""/></p>
 <h2>Edith Richard Mwasha</h2>
 <h4>Organization Secretary</h4>
-<p>Organization Secretary at SYoDeO, pursued Bachelor of Laws (LL.B) (Hons) Open University of Tanzania and Masters of Business Administration in Corporate Management-Mzumbe University –Dar es salaam, Tanzania. She is the expert in legal matters with the experience of more than 20 Years in the industry.</p>
+<p>Founder and Organization Secretary at SYoDeO, pursued Bachelor of Laws (LL.B) (Hons) at Open University of Tanzania and MBA in Business Administration in Corporate Management at Mzumbe University  Tanzania. She is the expert in legal matters with the experience of more than 20 Years in the industry.</p>
 </div><!--end team-member-->
 
 <div class="col-md-4 team-member">
 <p class="img-feature"><img src="{{asset('images/team/inno.jpg')}}" style="width:200px; height:200px" alt=""/></p>
 <h2>Innocent Augustine</h2>
 <h4>Project Coordinator</h4>
-<p>Project coordinator at SYoDeO, holding bachelor of Business Administration of University of Dar es Salaam Business School. He have been in microfinance industry for 12 years. 9 years working at Finca and 2 years at Mtaji Credit Facility.<br>He enjoy working with youth with business ideas,guide them in entrepreneurs skills and funding them to accomplish their goals.</p>
+<p>Project coordinator at SYoDeO, holding bachelor of Business Administration of University of Dar es Salaam Business School. He have been in microfinance industry for 12 years. 9 years working at Finca and 2 years at Mtaji Credit Facility.<br>He enjoy working with youth in business ideas,guide them in entrepreneurs skills and funding them to accomplish their goals.</p>
 </div><!--end team-member-->
 </div><!--end row-->
 

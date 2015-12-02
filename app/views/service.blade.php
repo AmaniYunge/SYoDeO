@@ -35,14 +35,15 @@
 
 <div class="row">
 <div class="col-md-4 ">
-<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- Self awareness,
-Entrepreurship benefits,
-How to start a new business ( clients, market, position, products, competitors),
-How to manage a  business,
-Business cycles and ethics,
-SWOT  Analysis,
-Business records and its importance,
-Business contracts and business planning.</p>
+<p>SYoDeO provide the following  critical training to youth to help them to turn their ideas into feasible business ventures:- 
+<li><i>Self awareness,</i></li>
+<li><i>Entrepreurship benefits,</i></li>
+<li><i>How to start a new business ( clients, market, position, products, competitors),</i></li>
+<li><i>How to manage a  business,</i></li>
+<li><i>Business cycles and ethics,</i></li>
+<li><i>SWOT  Analysis,</i></li>
+<li><i>Business records and its importance,</i></li>
+<li><i>Business contracts and business planning.,</i></li></p>
 </div><!--end home-feature-->
 
 <div class="col-md-4 ">

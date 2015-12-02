@@ -37,9 +37,6 @@
 </div><!--end wrap-->
 
 
-<<<<<<< HEAD
-
-=======
 <div class="wrap">
 <div class="container">
 <div class="row">
@@ -77,7 +74,6 @@ Entrepreurship benefits,  <a href="{{url('service')}}">Read More...</a></p>
 </div><!--end row-->
 </div><!--end container-->
 </div><!--end wrap-->
->>>>>>> 39e3244610e1fbfeadfb4ce685ddc554765ebccb
 
 <div class="wrap">
 <div class="container">
@@ -132,17 +128,14 @@ Entrepreurship benefits,  <a href="{{url('service')}}">Read More...</a></p>
             	<li>
                 	<a href="#" class="btn btn">Sept 21, 2015</a>
                     <p class="text-primary">Welcome to SYoDeO</p>
-<<<<<<< HEAD
-                    YoDeO is a Tanzanian non government organization, non-political, not religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
-=======
                     SYoDeO is a Tanzanian non government organization, non political, nnot religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
->>>>>>> 39e3244610e1fbfeadfb4ce685ddc554765ebccb
- <a href="#" class="underline"></a>
+
+                 <a href="#" class="underline"></a>
                 </li>
                 <li>
                 	<a href="#" class="btn btn">Sept 21, 2015</a>
                     <p class="text-primary">SYoDeO expands its services</p>
-                    The head quarter of this Organisation is at the  area 
+                    The head quarter of this Organisation is located at Kinondoni Municipality along Bagamoyo Road; Boko – Basihaya Opposite to Finca Tanzania Office.
  <a href="#" class="underline"></a>
                 </li>
                 

@@ -58,7 +58,7 @@
 <header class="sidebar-title">
 <p><br><h2>Stay with us.</h2></p>
 </header>
-<p>Call assistance from anywhere in Tanzania you will get it’ as you desired!</p>
+<p>Call for assistance from anywhere in Tanzania and you will get what you desire!</p>
 </div>
 <div class="col-md-3 home-apoint-btn">
 <a href="{{url('contact')}}">Get in touch</a>
