@@ -76,8 +76,9 @@
 <h3>Board Of Directors</h3>
 <p>SYoDeO has Professional Board members who are experts in diverse professions   and  are
 dedicated  to support  young people in Tanzania to meet their goals socially, economically 
-( financially) and culturally!
-
+( financially) and culturally!</p><br>
+<h3>Registration</h3>
+<p>SYoDeO as been registered on January 2015 under NGO Act,2002 with Registration No.00NGO/00007741</p>
 </div><!--end col-md-3-->
 
 <div class="col-md-3 foo-block">

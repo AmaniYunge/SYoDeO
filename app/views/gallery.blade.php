@@ -53,11 +53,7 @@
 </div><!--end gal-more-->
 </a>
 </div><!--end 3col-img-->
-<<<<<<< HEAD
-<h4 class="gallery-text">Duka la nguo- Bi Asha  at Mwananyamala</h4>
-=======
-<h4 class="gallery-text">Kiosk- Yohana Mwaluko at Kibamba</h4>
->>>>>>> 39e3244610e1fbfeadfb4ce685ddc554765ebccb
+<h4 class="gallery-text">Retail Shop- Asha Abbas at Mwananyamala</h4>
 </div><!--col-md-4-->
 </div><!--row-->
 
