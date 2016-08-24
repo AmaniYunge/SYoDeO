@@ -67,6 +67,16 @@ Route::get('volunteer', function()
     return View::make('volunteer');
 });
 
+Route::get('job', function()
+{
+    return View::make('job');
+});
+
+Route::get('news', function()
+{
+    return View::make('news');
+});
+
 
 Route::get('donation', function()
 {

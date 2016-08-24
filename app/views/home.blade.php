@@ -126,16 +126,18 @@ Entrepreurship benefits,  <a href="{{url('service')}}">Read More...</a></p>
 <div class="inner-div">
             <ul class="list-news">
             	<li>
-                	<a href="#" class="btn btn">Sept 21, 2015</a>
-                    <p class="text-primary">Welcome to SYoDeO</p>
-                    SYoDeO is a Tanzanian non government organization, non political, nnot religiously affiliated and non-profit. It aims to minimize the problem of unemployment in young people in Tanzania.
-
+                	<a href="#" class="btn btn"><strong>Aug 23, 2016</strong></a>
+                    <p class="text-primary">Job Vacancy</p>
+                  Looking for a great opportunity to apply your first-rate organisational expertise to make a real difference? Your contribution will help SYoDeO to  achieve its goal of reaching and improving the lives of Youth affected by poverty.
+                 <li><a href="{{url('job')}}" >Read more</a></li>
                  <a href="#" class="underline"></a>
                 </li>
                 <li>
-                	<a href="#" class="btn btn">Sept 21, 2015</a>
-                    <p class="text-primary">SYoDeO expands its services</p>
-                    The head quarter of this Organisation is located at Kinondoni Municipality along Bagamoyo Road; Boko – Basihaya Opposite to Finca Tanzania Office.
+                	<a href="#" class="btn btn"><strong>Aug 23, 2016</strong></a>
+                    <p class="text-primary"> Adolescent Education Program</p>
+                    Adolescent Education Program Launches in mid September 2016 in Temeke Municipality in Dar es Salaam Region!Any primary school want to be  a part of us please contact Project Coordinator at:infosyodeo@gmail.com  
+                    <li><a href="{{url('news')}}" >Read more</a></li>
+                    
  <a href="#" class="underline"></a>
                 </li>
                 
